@@ -1,0 +1,103 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #1b4552;
+}
+.navBar {
+  width: 100%;
+  height: 50px;
+  background-color: #6d80a4;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerLink{
+  height: 50px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #abc4ff;
+  font-size: 20px;
+  margin: 1%;
+  transition: linear .5s;
+}
+.headerLink:hover{
+  background-color: rgb(196, 196, 108);
+  color: black;
+}
+
+/* HOMEPAGE BODY */
+
+.homePageContainer {
+  color: #abc4ff;
+  width: 90%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centers items horizontally */
+  margin: 0 auto; /* Centers the container horizontally within its parent */
+}
+
+.openingStatement{
+  width: 100%;
+}
+/* .homePage {
+  width: 100%;
+  max-width: 1440px;
+  border: 3px solid black;
+} */
+.homePage--left{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 50vh;
+  width: 100%;
+}
+.leftInfo--box{
+  grid-column: 1/2;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+}
+.rightImage--box{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.leftImage--box{
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homePage--right{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 50vh;
+  width: 100%;
+}
+.rightInfo--box{
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homePage--image{
+  height: 250px;
+  width: 400px;
+  border: 3px solid black;
+  border-radius: 16px;
+}
+.button{
+  height: 50px;
+  width: 100px;
+}
