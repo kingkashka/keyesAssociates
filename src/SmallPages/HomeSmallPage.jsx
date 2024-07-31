@@ -1,27 +1,66 @@
 import HomePageCards from "../cards/HomePageCards";
+import HomePageCardsData from "../data/HomePageCardsData";
+
 export default function HomeSmallPage(props) {
-  // const renderHomePageCards = HomePageCardsData.map(data => <HomePageCards title={data.title} subtitle={data.subtitle} description = {data.description}/>)
+  const renderHomePageCards = HomePageCardsData.map((data) => (
+    <HomePageCards
+      image={data.image}
+      title={data.title}
+      subTitle={data.subTitle}
+      bullet1={data.bullet1}
+      bullet2={data.bullet2}
+      bullet3={data.bullet3}
+      bullet4={data.bullet4}
+    />
+  ));
   return (
     <>
       <div className="homePageContainer">
         <div className="openingStatement">
-          <h1>DiPietro & Associates, Inc.</h1>
+          <h1>Why Choose Keyes & Assocciates</h1>
+          <h2>Optimize your time, Expand your business</h2>
+          <div className="statementContainer">
+            <li>
+              <span className="firstStatement">
+                Keep the business organized:
+              </span>{" "}
+              We keep financial records up to date and accessible; this will
+              save you time and money, and lead to better performance.
+            </li>
+            <li>
+              <span className="firstStatement">Expand your business:</span> We
+              closely monitor expenses and revenue and will create and maintain
+              a budget that aligns with your business’s goals and objectives.
+            </li>
+            <li>
+              <span className="firstStatement">Your time is valuable:</span>{" "}
+              Focus on your business while we focus on your financial health by
+              identifying areas where cost savings and revenue can be increased.
+            </li>
+            <li>
+              <span className="firstStatement">Experience is experience:</span>{" "}
+              We eliminate costly mistakes, oversights, and complicated issues
+              by taking a methodical approach to ensure accuracy at every step.
+            </li>
+            <li>
+              <span className="firstStatement">Save on costs:</span> By
+              outsourcing your bookkeeping, you save money by not paying full-
+              time or part-time employees and only paying for what you need –
+              nothing more, nothing less.
+            </li>
+          </div>
+        </div>
+        <div>
+          <h1>SERVICES</h1>
           <p>
-            Welcome to [Your Business Name], your trusted partner in medical
-            logistics. At [Your Business Name], we understand the critical
-            importance of timely and secure delivery of medical supplies,
-            specimens, and pharmaceuticals. Our mission is to provide healthcare
-            providers and patients with reliable, efficient, and compassionate
-            courier services, ensuring that every delivery is handled with the
-            utmost care and professionalism. Whether it's transporting
-            life-saving medications, delicate lab samples, or essential medical
-            equipment, we are committed to maintaining the highest standards of
-            safety, confidentiality, and punctuality. Trust us to be your
-            dependable link in the healthcare chain, delivering quality and
-            peace of mind with every mile.
+            We give you top-quality bookkeeping services that won&#39;t break
+            the bank. You can trust us to handle your books with care and
+            attention to detail. We want to help you succeed and build strong,
+            long-lasting relationships with all our clients.
           </p>
         </div>
-        <div className="homePage--left">
+        <div className="homePageCard--Container">{renderHomePageCards}</div>
+        {/* <div className="homePage--left">
           <div className="leftInfo--box">
             <h1>AED Navigator</h1>
             <h3>Program Management</h3>
@@ -49,8 +88,8 @@ export default function HomeSmallPage(props) {
               alt=""
             />
           </div>
-        </div>
-        <div className="homePage--right">
+        </div> */}
+        {/* <div className="homePage--right">
           <div className="leftImage--box">
             <img
               className="homePage--image"
@@ -77,7 +116,7 @@ export default function HomeSmallPage(props) {
             </p>
             <button className="button">Learn More</button>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

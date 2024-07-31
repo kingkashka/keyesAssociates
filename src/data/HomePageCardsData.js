@@ -1,21 +1,33 @@
 const HomePageCardsData = [
   {
     image:
-      "https://dipietroassoc.com/wp-content/uploads/2023/05/Z7Yh8d1g-1024x603.jpeg",
-    title: "AED Navigator",
-    subTitle: "Program Management",
-    description:
-      "Sudden Cardiac Arrest (SCA) is a leading cause of death in the US. Is your organization prepared to confidently respond to a SCA emergency? AED Navigator is trusted by thousands of organizations across the nation to help them effectively and efficiently respond to life threatening emergencies.  Prepared, confident, effective.",
-    learnMore: "",
+      "https://images.pexels.com/photos/164686/pexels-photo-164686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    title: "BOOKKEEPING",
+    subTitle: "Want to clean up your books and establish a sound accounting system?",
+    bullet1: "Bank transaction recording",
+    bullet2: "Bank reconciliations",
+    bullet3: "Invoices and payments",
+    bullet4: "Transaction reports – sales, accounts receivables, account payables"
   },
   {
     image:
       "https://dipietroassoc.com/wp-content/uploads/2023/05/GOa-EW5g-scaled-1-1024x540.jpeg",
-    title: "Certification Training",
-    subTitle: "",
-    description:
-      "DiPietro & Associates, Inc. is an American Safety & Health Institute training center. We provide onsite CPR/AED/FA certification training for businesses and organizations, supplemented with hands-on practice using the trainer version of your exact AEDs. Give your organization the confidence to aid in a medical emergency.",
-    learnMore: "",
+    title: "ACCOUNT RECEIVABLE",
+    subTitle: "Prompt and accurate invoicing",
+    bullet1: "Late, partial, or no payment tracking",
+    bullet2: "Bank deposits",
+    bullet3: "",
+    bullet4: ""
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/4386471/pexels-photo-4386471.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "ACCOUNT PAYABLE",
+    subTitle: "Automate solution",
+    bullet1: "Organize and prioritize invoices",
+    bullet2: "Safeguard for duplicate payments",
+    bullet3: "",
+    bullet4: ""
   },
 ];
 export default HomePageCardsData;
