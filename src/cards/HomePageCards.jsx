@@ -16,7 +16,9 @@ function HomePageCards(props) {
           <h2>{title}</h2>
           <h3>{subTitle}</h3>
         </div>
-      <img src={image} alt="" className="cardImages" />
+        <div className="cardImages--Container">
+          <img src={image} alt="" className="cardImages" />
+        </div>
         <div className="bullet--Container">
           <li>{bullet1}</li>
           <li>{bullet2}</li>

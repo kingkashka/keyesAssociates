@@ -11,7 +11,7 @@ const HomePageCardsData = [
   },
   {
     image:
-      "https://dipietroassoc.com/wp-content/uploads/2023/05/GOa-EW5g-scaled-1-1024x540.jpeg",
+      "https://www.invoicetracker.com/wp-content/uploads/2018/07/AccountsReceivable.jpeg",
     title: "ACCOUNT RECEIVABLE",
     subTitle: "Prompt and accurate invoicing",
     bullet1: "Late, partial, or no payment tracking",
@@ -21,7 +21,7 @@ const HomePageCardsData = [
   },
   {
     image:
-      "https://images.pexels.com/photos/4386471/pexels-photo-4386471.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://www.accountsjunction.com/image/accounts-payable-management-procedures.jpg",
     title: "ACCOUNT PAYABLE",
     subTitle: "Automate solution",
     bullet1: "Organize and prioritize invoices",

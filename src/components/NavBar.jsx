@@ -4,20 +4,17 @@ function NavBar(){
     return(
         <div className="navBar">
     <Link className="headerLink" to={"/"} >
-    Accessories
+    Home
     </Link>
-    <Link className="headerLink">
-    AED NAvigator
-    </Link>
-    <Link className="headerLink">
-    Classes
+    <Link className="headerLink" to={"/aboutus"}>
+    About Us
+    </Link>    
+    <Link className="headerLink" to={"/contact"}> 
+    Contact
     </Link>
     <Link className="headerLink">
     FAQ
     </Link>
-    <Link className="headerLink">
-    About Us
-    </Link>    
         </div>
     )
 }
