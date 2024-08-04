@@ -6,14 +6,14 @@ function NavBar(){
     <Link className="headerLink" to={"/"} >
     Home
     </Link>
+    <Link className="headerLink" to={"/services"}>
+    Services
+    </Link>
     <Link className="headerLink" to={"/aboutus"}>
     About Us
     </Link>    
     <Link className="headerLink" to={"/contact"}> 
     Contact
-    </Link>
-    <Link className="headerLink">
-    FAQ
     </Link>
         </div>
     )

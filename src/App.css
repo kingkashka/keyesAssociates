@@ -77,6 +77,7 @@
 .statementContainer li{
   margin: 0.5%;
   font-size: 18px;
+  list-style: none;
 }
 .firstStatement{
   font-weight: bold;
@@ -215,4 +216,103 @@
 .button:hover{
   background-color: #bbcbd7;
   scale: 1.1;
+}
+
+/* AboutUs Page */
+
+.aboutUsSmallPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  color: #d7e9f7;
+}
+.aboutUsCards--Container{
+  display: flex;
+  height: 500px;
+  /* width: inherit; */
+  /* flex-wrap: wrap; */
+}
+.aboutUsCards{
+  border: #d7e9f7 solid 3px;
+  background-color: #d7e9f7;
+  color: #1b4552;
+  border-radius: 8px;
+  height: 350px;
+  width: 400px;
+  margin: 1%;
+}
+.aboutUsCards--Header{
+
+}
+.aboutUsCard--Body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutIcons{
+  height: 50px;
+  width:50px;
+}
+
+/* SERVICE PAGE */
+
+.servicesSmallPage{
+  color: #d7e9f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.servicesHeader{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* .servicesHeader h1{
+
+} */
+.servicesHeader p{
+  font-size: 18px;
+}
+.servicesCard--Container{
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+}
+.servicesCards{
+  border: black solid 3px;
+  background-color: #d7e9f7;
+  color: #1b4552;
+  border-radius: 8px;
+  height: 500px;
+  width: 300px;
+  margin: 1%;
+}
+.servicesCards--Header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: inherit;
+  border-bottom: #1b4552 solid 3px;
+}
+.servicesCards--Body{
+  height: 350px;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 5px;
+  list-style-position: inside; /* Ensure bullets are inside the list item's padding */
+  padding-left: 0; /* Remove default padding */
+  margin: 5px;
+}
+
+.servicesCards--Body li {
+  margin: 0; /* Remove any extra margin around list items */
+  padding: 0; /* Remove any extra padding */
 }
