@@ -20,7 +20,6 @@ export default function HomeSmallPage(props) {
         <section id="home" className="homePageContainer">          
             <div className="openingStatement">
               <h1>Why Choose Keyes & Associates</h1>
-              <h2>Optimize your time, Expand your business</h2>
               <div className="statementContainer">
                 <li>
                   <span className="firstStatement">
@@ -64,8 +63,11 @@ export default function HomeSmallPage(props) {
                   need – nothing more, nothing less.
                 </li>
               </div>
+              <h1>Optimize your time, Expand your business</h1>
             </div>
-          <div className="homePageCard--Container">{renderHomePageCards}</div>
+          <div className="homePageCard--Container">
+            {renderHomePageCards}
+          </div>
         </section>
 
         {/* HOMEPAGE CONTAINER END */}

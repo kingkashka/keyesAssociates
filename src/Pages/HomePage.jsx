@@ -11,7 +11,7 @@ function HomePage() {
     <>
     <div className="mainContainer">
       <NavBar />
-      {/* <LogoContainer/> */}
+      <LogoContainer/>
       <HomeSmallPage />
       <ServicesSmallPage/>
       <AboutUsSmallPage/>

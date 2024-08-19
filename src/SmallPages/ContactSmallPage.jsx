@@ -10,19 +10,19 @@ function ContactSmallPage() {
     message: "",
   });
 
-    // function submitEmail(){
-    //     Email.send({
-    //         Host : "smtp.keyesandassoc@outlook.com",
-    //         Username : "bubbzthegreat@gmail.com",
-    //         Password : "cumulus6392",
-    //         To : 'keyesandassoc@outlook.com',
-    //         From : "you@isp.com",
-    //         Subject : "Demo of smptjs",
-    //         Body : "And this is the body"
-    //     }).then(
-    //       message => alert(message)
-    //     );
-    // }
+    function submitEmail(){
+        Email.send({
+            Host : "smtp.keyesandassoc@outlook.com",
+            Username : "bubbzthegreat@gmail.com",
+            Password : "cumulus6392",
+            To : 'keyesandassoc@outlook.com',
+            From : "you@isp.com",
+            Subject : "Demo of smptjs",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        );
+    }
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
