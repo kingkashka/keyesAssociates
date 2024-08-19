@@ -2,7 +2,7 @@ import { PiNumberSquareOneFill } from "react-icons/pi";
 function ServicesSmallPage() {
   return (
     <>
-      <div className="servicesSmallPage">
+      <section id="services" className="servicesSmallPage">
         <div className="servicesHeader">
         <h1>Our Bookkeeping Services</h1>
         <p>
@@ -57,7 +57,7 @@ function ServicesSmallPage() {
             </div>
 
         </div>
-      </div>
+      </section>
     </>
   );
 }

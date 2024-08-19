@@ -1,32 +1,48 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
 function NavBar() {
+
   return (
     <>
       <div className="navBar">
-        <div className="logo--container">
-          <img
+        {/* <div className="navBar--top">
+          <div className="logo--container">
+            <img
             className="logo"
             src="/images/Keyes-_-Assoc.-Bookkeeping-03.svg"
             alt=""
           />
-        </div>
+          </div>
+        </div> */}
         <div className="link--container">
-          <Link className="headerLink" to={"/"}>
+          {/* <Link className="headerLink" to={"/"}>
+              Home
+              </Link> */}
+          {/* <Link className="headerLink" to={"/services"}>
+              Services
+            </Link> */}
+            <a href="#home" className="headerLink">
             Home
-          </Link>
-          <Link className="headerLink" to={"/services"}>
+          </a>
+          <div className="underLinkBorder"></div>
+          <a href="#services" className="headerLink">
             Services
-          </Link>
-          <Link className="headerLink" to={"/aboutus"}>
+          </a>
+          <div className="underLinkBorder"></div>
+          {/* <Link className="headerLink" to={"/aboutus"}>
+              About Us
+            </Link> */}
+          <a href="#aboutUs" className="headerLink">
             About Us
-          </Link>
-          <Link className="headerLink" to={"/contact"}>
+          </a>
+          <div className="underLinkBorder"></div>
+          {/* <Link className="headerLink" to={"/contact"}>
             Contact
-          </Link>
+          </Link> */}
+          <a href="#contact" className="headerLink">Contact Us</a>
+          <div className="underLinkBorder"></div>
         </div>
-          {/* <div className="icon--container">
+
+        {/* <div className="icon--container">
             <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61564204352290">
               <FaLinkedinIn className="socialIcon" />
             </a>
