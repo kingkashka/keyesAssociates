@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { FaSquareFacebook } from "react-icons/fa6";
 function NavBar() {
 
   return (
@@ -38,18 +39,13 @@ function NavBar() {
           {/* <Link className="headerLink" to={"/contact"}>
             Contact
           </Link> */}
-          <a href="#contact" className="headerLink">Contact Us</a>
+          {/* <a href="#contact" className="headerLink">Contact Us</a>
+          <div className="underLinkBorder"></div> */}
+          <a href="mailto:keyesandassoc@outlook.com" className="headerLink">Contact Me</a>
+          <div className="underLinkBorder"></div>
+          <a  href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61564204352290"><FaSquareFacebook className="socialIcon"/></a>
           <div className="underLinkBorder"></div>
         </div>
-
-        {/* <div className="icon--container">
-            <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61564204352290">
-              <FaLinkedinIn className="socialIcon" />
-            </a>
-            <a href="https://www.linkedin.com/in/keyes-and-associates-4b4738322?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7d3B0Oa%2FTdeJhfNdkH2X%2Bw%3D%3D">
-              <FaFacebookF className="socialIcon" />
-            </a>
-          </div> */}
       </div>
     </>
   );

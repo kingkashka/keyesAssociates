@@ -1,4 +1,3 @@
-import { PiNumberSquareOneFill } from "react-icons/pi";
 function ServicesSmallPage() {
   return (
     <>
@@ -32,7 +31,6 @@ function ServicesSmallPage() {
                 <li>Manual Data Entry</li>
                 <li>Straightforward flat fee</li>
                 </div>
-                <PiNumberSquareOneFill className="serviceIcons"/>
             </div>
             <div className="servicesCards">
             <div className="servicesCards--Header">

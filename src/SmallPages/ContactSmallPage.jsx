@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaSquareFacebook } from "react-icons/fa6";
 // import { SMTPClient } from "smtp-client";
 
 function ContactSmallPage() {
@@ -46,7 +47,9 @@ function ContactSmallPage() {
           We would love to respond to your queries and help you succeed. Feel
           free to get in touch with us.
         </p>
-        <h3>Reach Us</h3>
+        <h3>Reach Out To Us</h3>
+        <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61564204352290"><FaSquareFacebook /></a>
+        <a className="email" href="">keyesandassoc@outlook.com</a>
         <h3>Send your request</h3>
       </div>
         <div className="contactContent">
@@ -86,9 +89,9 @@ function ContactSmallPage() {
             value={formData.message}
             onChange={handleChange}
           />
+          <br />
           <button type="submit" onClick={submitEmail}>Send</button>
         </form>
-
         </div>
       </div>
     </section>

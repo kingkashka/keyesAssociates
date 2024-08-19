@@ -25,7 +25,6 @@ function HomePageCards(props) {
           <li>{bullet3}</li>
           <li>{bullet4}</li>
         </div>
-        {/* <button>{learnMore}</button> */}
       </div>
     </>
   );

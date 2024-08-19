@@ -5,6 +5,7 @@ import { LiaBinocularsSolid } from "react-icons/lia";
 function AboutUsSmallPage() {
   return (
     <section id="aboutUs" className="aboutUsSmallPage">
+      <div className="aboutUs--Header">
         <h1>About Us</h1>
         <p>
           We strive to be the go-to partner for small business owners and
@@ -17,6 +18,7 @@ function AboutUsSmallPage() {
           cutting-edge tools to streamline our processes and deliver exceptional
           value to our clients.{" "}
         </p>
+      </div>
         <div className="aboutUsCards--Container">
           <div className="aboutUsCards">
             <div className="aboutUsCards--Header">
