@@ -10,6 +10,7 @@ body{
 html {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+  -ms-text-size-adjust: 100%;
 }
 section {
   scroll-snap-align: start;
@@ -536,3 +537,74 @@ section {
   margin: 2%;
 }
 /* FOOTER PAGE END */
+
+@media screen and (max-width: 600px) {
+  #root {
+    max-width: 100%;
+  }
+  
+  .navBar {
+    height: 80px; /* Adjust height for mobile */
+    border-right: 4px solid #d7e9f7;
+  }
+
+  .logo--container {
+    height: 150px;
+    width: 100%;
+  }
+
+  .homePageContainer {
+    height: auto; /* Adjust height for mobile */
+  }
+
+  .homePageCard--Container {
+    height: auto; /* Adjust height for mobile */
+  }
+
+  .HomePageCards {
+    height: auto; /* Adjust height for mobile */
+    width: 90%; /* Adjust width for mobile */
+  }
+
+  .button {
+    height: 40px;
+    width: 80px;
+  }
+
+  .aboutUsSmallPage {
+    height: auto; /* Adjust height for mobile */
+  }
+
+  .aboutUsCards {
+    height: auto; /* Adjust height for mobile */
+    width: 90%; /* Adjust width for mobile */
+  }
+
+  .servicesSmallPage {
+    height: auto; /* Adjust height for mobile */
+  }
+
+  .servicesCards {
+    height: auto; /* Adjust height for mobile */
+    width: 90%; /* Adjust width for mobile */
+  }
+
+  .contactPage {
+    height: auto; /* Adjust height for mobile */
+  }
+
+  .contactContent {
+    width: 90%; /* Adjust width for mobile */
+  }
+
+  .footer {
+    height: auto; /* Adjust height for mobile */
+    width: 100%;
+  }
+
+  .cert--container img {
+    height: 150px; /* Adjust height for mobile */
+    width: 150px; /* Adjust width for mobile */
+  }
+}
+
