@@ -1,18 +1,8 @@
 import HomePageCards from "../cards/HomePageCards";
 import HomePageCardsData from "../data/HomePageCardsData";
 
+
 export default function HomeSmallPage(props) {
-  // const renderHomePageCards = HomePageCardsData.map((data) => (
-  //   <HomePageCards
-  //     image={data.image}
-  //     title={data.title}
-  //     subTitle={data.subTitle}
-  //     bullet1={data.bullet1}
-  //     bullet2={data.bullet2}
-  //     bullet3={data.bullet3}
-  //     bullet4={data.bullet4}
-  //   />
-  // ));
   return (
     <>
         {/* HOMEPAGE CONTAINER START  */}
