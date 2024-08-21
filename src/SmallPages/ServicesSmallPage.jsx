@@ -2,6 +2,7 @@ function ServicesSmallPage() {
   return (
     <>
       <section id="services" className="servicesSmallPage">
+        <div>
         <div className="servicesHeader">
         <h1>Our Bookkeeping Services</h1>
         <p>
@@ -53,6 +54,8 @@ function ServicesSmallPage() {
                 <li>1099 filings</li>
                 </div>
             </div>
+
+        </div>
 
         </div>
       </section>
