@@ -322,6 +322,7 @@ section {
   height: 500px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .aboutUsCards {
   border: black solid 3px;
@@ -390,6 +391,7 @@ section {
 .servicesCard--Container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 1%;
 }
 .servicesCards {
@@ -397,7 +399,7 @@ section {
   background-color: #d7e9f7;
   color: black;
   border-radius: 8px;
-  height: 500px;
+  height: 520px;
   width: 300px;
   margin: 1%;
 }
@@ -410,7 +412,7 @@ section {
   border-bottom: #1b4552 solid 3px;
 }
 .servicesCards--Body {
-  height: 350px;
+  height: 370px;
   width: inherit;
   display: flex;
   flex-direction: column;
@@ -422,11 +424,7 @@ section {
 }
 
 .servicesCards--Body li {
-<<<<<<< HEAD:client/src/App.css
   font-size: .9rem;
-=======
-  font-size: 14px;
->>>>>>> 1257cf0a4369bd882327a3835e6fc3a28d919ee5:src/App.css
   margin: 1%;
 }
 /* SERVICE PAGE END*/
@@ -444,14 +442,14 @@ section {
   margin: 0 auto;
 }
 .contactBox {
-  height: 50vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .contactContent {
-  height: 50vh;
+  height: 25vh;
   width: 500px;
   display: flex;
   justify-content: center;
@@ -539,6 +537,7 @@ section {
 }
 .cert--container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -546,8 +545,8 @@ section {
 }
 
 .cert--container img {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   margin: 1%;
 }
 .social-icons a {

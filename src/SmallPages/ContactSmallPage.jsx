@@ -19,9 +19,9 @@ function ContactSmallPage() {
   };
 
   return (
-    <section id="contact" className="contactPage">
-      <div className="contactBox">
-        <div className="contactPage--header">
+    <section id="contact" className="contactPage w-auto col">
+      <div className="contactBox h-auto h-width">
+        <div className="contactPage--header w-auto">
           <h1>Connect With Us</h1>
           <p>
             We would love to respond to your queries and help you succeed. Feel
@@ -29,7 +29,7 @@ function ContactSmallPage() {
           </p>
           <h3>Reach Out To Us</h3>
         </div>
-        <div className="contactContent">
+        <div className="contactContent w-auto h-auto">
           {/* Added Netlify tag for form submission */}
           <form className="contact" netlify>
             <input

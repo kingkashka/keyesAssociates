@@ -1,9 +1,9 @@
 function ServicesSmallPage() {
   return (
     <>
-      <section id="services" className="servicesSmallPage">
+      <section id="services" className="servicesSmallPage w-auto col h-auto">
         <div>
-        <div className="servicesHeader">
+        <div className="servicesHeader w-auto col">
         <h1>Our Bookkeeping Services</h1>
         <p>
           QuickBooks Online is our accounting platform of choice as it is the
@@ -15,7 +15,7 @@ function ServicesSmallPage() {
           amount of time and money.
         </p>
         </div>
-        <div className="servicesCard--Container">
+        <div className="servicesCard--Container w-auto col">
             <div className="servicesCards">
                 <div className="servicesCards--Header">
                 <h2>

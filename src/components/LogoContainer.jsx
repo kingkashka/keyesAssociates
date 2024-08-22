@@ -2,7 +2,7 @@ function LogoContainer(){
     return(
         <section className="logo--container">
           <img
-            className="logo"
+            className="logo w-auto"
             src="/images/logo.svg"
             alt=""
           />

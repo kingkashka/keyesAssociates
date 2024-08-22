@@ -4,23 +4,8 @@ function NavBar() {
 
   return (
     <>
-      <div className="navBar">
-        {/* <div className="navBar--top">
-          <div className="logo--container">
-            <img
-            className="logo"
-            src="/images/Keyes-_-Assoc.-Bookkeeping-03.svg"
-            alt=""
-          />
-          </div>
-        </div> */}
-        <div className="link--container">
-          {/* <Link className="headerLink" to={"/"}>
-              Home
-              </Link> */}
-          {/* <Link className="headerLink" to={"/services"}>
-              Services
-            </Link> */}
+      <div className="navBar w-auto">
+        <div className="link--container w-auto">
             <a href="#home" className="headerLink">
             Home
           </a>
@@ -29,9 +14,6 @@ function NavBar() {
             Services
           </a>
           <div className="underLinkBorder"></div>
-          {/* <Link className="headerLink" to={"/aboutus"}>
-              About Us
-            </Link> */}
           <a href="#aboutUs" className="headerLink">
             About Us
           </a>

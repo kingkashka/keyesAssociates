@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 function HomePage() {
   return (
     <>
-    <div className="mainContainer">
+    <div className="mainContainer w-auto col h-auto">
       <NavBar />
       <LogoContainer/>
       <HomeSmallPage />

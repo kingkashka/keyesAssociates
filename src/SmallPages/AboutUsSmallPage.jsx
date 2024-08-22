@@ -3,8 +3,8 @@ import { GiBullseye } from "react-icons/gi";
 import { FaHandshake } from "react-icons/fa";
 function AboutUsSmallPage() {
   return (
-    <section id="aboutUs" className="aboutUsSmallPage">
-      <div className="aboutUs--Header">
+    <section id="aboutUs" className="aboutUsSmallPage w-auto col h-auto">
+      <div className="aboutUs--Header w-auto col">
         <h1>About Us</h1>
         <p>
           We strive to be the go-to partner for small business owners and
@@ -15,16 +15,16 @@ function AboutUsSmallPage() {
           solutions that exceed their expectations. We are committed to staying
           ahead of the curve in technology and innovation, leveraging
           cutting-edge tools to streamline our processes and deliver exceptional
-          value to our clients.{" "}
+          value to our clients.
         </p>
       </div>
-      <div className="aboutUsCards--Container">
-        <div className="aboutUsCards">
-          <div className="aboutUsCards--Header">
+      <div className="aboutUsCards--Container w-auto col h-auto">
+        <div className="aboutUsCards col-sm-">
+          <div className="aboutUsCards--Header col-sm-">
             <h2>Our Vision</h2>
             <PiEyesFill className="aboutIcons" />
           </div>
-          <div className="aboutUsCard--Body">
+          <div className="aboutUsCard--Body col-sm-">
             <p>
               Our vision is to empower businesses of all sizes to succeed
               financially by providing expert bookkeeping services that are
@@ -35,11 +35,11 @@ function AboutUsSmallPage() {
             </p>
           </div>
         </div>
-        <div className="aboutUsCards">
-          <div className="aboutUsCards--Header">
+        <div className="aboutUsCards col-sm-">
+          <div className="aboutUsCards--Header col-sm-">
             <h2>Our Purpose</h2>
             <GiBullseye className="aboutIcons" />
-            <div className="aboutUsCard--Body">
+            <div className="aboutUsCard--Body col-sm-">
               <p>
                 Our purpose is to accurately maintain financial data and provide
                 organized reports for business owners, ensuring compliance with
@@ -48,12 +48,12 @@ function AboutUsSmallPage() {
             </div>
           </div>
         </div>
-        <div className="aboutUsCards">
-          <div className="aboutUsCards--Header">
+        <div className="aboutUsCards col-sm-">
+          <div className="aboutUsCards--Header col-sm-">
             <h2>Our Mission</h2>
             <FaHandshake className="aboutIcons" />
           </div>
-          <div className="aboutUsCard--Body">
+          <div className="aboutUsCard--Body col-sm-">
             <p>
               Our mission is to provide accurate and timely financial reports to
               help our clients make informed business decisions. We strive to

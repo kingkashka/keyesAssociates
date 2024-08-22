@@ -7,10 +7,10 @@ export default function HomeSmallPage(props) {
     <>
         {/* HOMEPAGE CONTAINER START  */}
 
-        <section id="home" className="homePageContainer">          
-            <div className="openingStatement">
+        <section id="home" className="homePageContainer  w-auto col h-auto">          
+            <div className="openingStatement  w-auto col">
               <h1>Why Choose Keyes & Associates</h1>
-              <div className="statementContainer">
+              <div className="statementContainer  w-auto col">
                 <li>
                   <span className="firstStatement">
                     <span className="firstLetter">K</span>
@@ -53,13 +53,13 @@ export default function HomeSmallPage(props) {
               </div>
               <h1>Optimize your time, Expand your business</h1>
             </div>
-          <div className="homePageCard--Container">
-          <div className="HomePageCards">
+          <div className="homePageCard--Container  w-auto col">
+          <div className="HomePageCards col-sm-">
         <div className="card--Header">
           <h2>BOOKKEEPING</h2>
           <h3>Want to clean up your books and establish a sound accounting system?</h3>
         </div>
-        <div className="cardImages--Container">
+        <div className="cardImages--Container  w-auto col">
           <img src="https://images.pexels.com/photos/164686/pexels-photo-164686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="cardImages" />
         </div>
         <div className="bullet--Container">
@@ -69,12 +69,12 @@ export default function HomeSmallPage(props) {
           <li>Transaction reports – sales, accounts receivables, account payables</li>
         </div>
       </div>
-      <div className="HomePageCards">
+      <div className="HomePageCards col-sm-">
         <div className="card--Header">
           <h2>ACCOUNT RECEIVABLE</h2>
           <h3>Prompt and accurate invoicing</h3>
         </div>
-        <div className="cardImages--Container">
+        <div className="cardImages--Container  w-auto col">
           <img src="https://www.invoicetracker.com/wp-content/uploads/2018/07/AccountsReceivable.jpeg" alt="" className="cardImages" />
         </div>
         <div className="bullet--Container">
@@ -82,12 +82,12 @@ export default function HomeSmallPage(props) {
           <li>Bank deposits</li>
         </div>
       </div>
-      <div className="HomePageCards">
+      <div className="HomePageCards col-sm-">
         <div className="card--Header">
           <h2>ACCOUNT PAYABLE</h2>
           <h3>Automate solution</h3>
         </div>
-        <div className="cardImages--Container">
+        <div className="cardImages--Container  w-auto col">
           <img src="https://www.accountsjunction.com/image/accounts-payable-management-procedures.jpg" alt="" className="cardImages" />
         </div>
         <div className="bullet--Container">
