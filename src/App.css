@@ -53,7 +53,7 @@ section {
   justify-content: center;
   align-items: center;
   color: #d7e9f7;
-  font-size: 22px;
+  font-size: 1.4rem;
   text-decoration: none;
   margin: 1%;
   transition: linear 0.5s;
@@ -101,7 +101,7 @@ section {
   width: 1000px;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .navBar {
     display: flex;
     position: sticky;
@@ -124,7 +124,7 @@ section {
   .servicesSmallPage {
     width: inherit;
   }
-}
+} */
 
 /* LOGO CONTAINER END  */
 
@@ -140,7 +140,7 @@ section {
 }
 
 .openingStatement {
-  font-size: 30px;
+  font-size: 1.4rem;
   color: #d7e9f7;
   width: 80%;
   margin: 0 auto;
@@ -151,7 +151,7 @@ section {
   align-items: center;
 }
 .firstLetter {
-  font-size: 28px;
+  font-size: 2rem;
   font-family: "Times New Roman", Times, serif;
   color: black;
 }
@@ -167,7 +167,7 @@ section {
 }
 .statementContainer li {
   margin: 0.5%;
-  font-size: 18px;
+  font-size: 1rem;
   list-style: none;
 }
 .firstStatement {
@@ -198,7 +198,7 @@ section {
 .card--Header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding-top: 16px;
   align-items: center;
   height: 125px;
   width: inherit;
@@ -209,7 +209,7 @@ section {
 }
 .card--Header h3 {
   font-style: italic;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 .cardImages--Container {
   display: flex;
@@ -219,7 +219,7 @@ section {
   width: inherit;
 }
 .cardImages {
-  width: inherit;
+  width: 100%;
   height: 200px;
 }
 .bullet--Container {
@@ -230,6 +230,7 @@ section {
 }
 .bullet--Container li {
   text-align: left;
+  font: 1rem;
   margin: 2%;
 }
 .homePage--left {
@@ -314,7 +315,7 @@ section {
   font-size: 40px;
 }
 .aboutUsSmallPage p {
-  font-size: 20px;
+  font-size: 1.4rem;
 }
 .aboutUsCards--Container {
   display: flex;
@@ -343,7 +344,9 @@ section {
 .aboutUsCard--Body p {
   font-size: 1.1rem;
 }
-
+.aboutUsCard--Body p {
+  font-size: 1rem;
+}
 .aboutIcons {
   height: 50px;
   width: 50px;
@@ -413,13 +416,17 @@ section {
   flex-direction: column;
   text-align: left;
   margin: 5px;
-  list-style-position: inside; /* Ensure bullets are inside the list item's padding */
-  padding-left: 0; /* Remove default padding */
+  list-style-position: inside;
+  padding-left: 0; 
   margin: 5px;
 }
 
 .servicesCards--Body li {
+<<<<<<< HEAD:client/src/App.css
   font-size: .9rem;
+=======
+  font-size: 14px;
+>>>>>>> 1257cf0a4369bd882327a3835e6fc3a28d919ee5:src/App.css
   margin: 1%;
 }
 /* SERVICE PAGE END*/
@@ -551,13 +558,13 @@ section {
 }
 /* FOOTER PAGE END */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   #root {
     max-width: 100%;
   }
   
   .navBar {
-    height: 80px; /* Adjust height for mobile */
+    height: 80px; 
     border-right: 4px solid #d7e9f7;
   }
 
@@ -567,57 +574,55 @@ section {
   }
 
   .homePageContainer {
-    height: auto; /* Adjust height for mobile */
+    height: auto; 
   }
 
   .homePageCard--Container {
-    height: auto; /* Adjust height for mobile */
+    height: auto; 
   }
-
   .HomePageCards {
-    height: auto; /* Adjust height for mobile */
-    width: 90%; /* Adjust width for mobile */
+    height: auto; 
+    width: 90%; 
   }
-
   .button {
     height: 40px;
     width: 80px;
   }
 
   .aboutUsSmallPage {
-    height: auto; /* Adjust height for mobile */
+    height: auto; 
   }
 
   .aboutUsCards {
-    height: auto; /* Adjust height for mobile */
-    width: 90%; /* Adjust width for mobile */
+    height: auto; 
+    width: 90%; 
   }
 
   .servicesSmallPage {
-    height: auto; /* Adjust height for mobile */
+    height: auto; 
   }
 
   .servicesCards {
-    height: auto; /* Adjust height for mobile */
-    width: 90%; /* Adjust width for mobile */
+    height: auto; 
+    width: 90%;
   }
 
   .contactPage {
-    height: auto; /* Adjust height for mobile */
+    height: auto; 
   }
 
   .contactContent {
-    width: 90%; /* Adjust width for mobile */
+    width: 90%; 
   }
 
   .footer {
-    height: auto; /* Adjust height for mobile */
+    height: auto; 
     width: 100%;
   }
 
   .cert--container img {
-    height: 150px; /* Adjust height for mobile */
-    width: 150px; /* Adjust width for mobile */
+    height: 150px;
+    width: 150px; 
   }
-}
+} */
 
