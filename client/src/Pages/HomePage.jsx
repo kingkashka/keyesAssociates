@@ -15,7 +15,7 @@ function HomePage() {
       <HomeSmallPage />
       <ServicesSmallPage/>
       <AboutUsSmallPage/>
-      {/* <ContactSmallPage/> */}
+      <ContactSmallPage/>
       <Footer />
     </div>
     </>
