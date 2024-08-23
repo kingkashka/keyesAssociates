@@ -6,7 +6,7 @@ function LogoContainer({ isMobile }) {
     <section className="logo--container">
       <img
         className="logo w-auto"
-        src="/images/logo.png"
+        src="/images/logo.svg"
         alt="Company Logo"
       />
     </section>
