@@ -19,7 +19,7 @@ function ContactSmallPage() {
   };
 
   return (
-    <section id="contact" className="contactPage w-auto col">
+    <section id="contact" className="contactPage col-sm- h-auto w-auto">
       <div className="contactBox h-auto h-width">
         <div className="contactPage--header w-auto">
           <h1>Connect With Us</h1>

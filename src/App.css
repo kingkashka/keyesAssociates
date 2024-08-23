@@ -13,7 +13,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 section {
-  scroll-snap-align: start;
+  height: 100vh;
   scroll-snap-stop: normal;
 }
 .mainContainer {
@@ -36,6 +36,18 @@ section {
   height: 100vh;
   background-color: #6d80a4;
   border-right: 10px solid powderblue;
+}
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/3;
+  position: fixed;
+  width: 100%;
+}
+.navbar{
+  height: inherit;
+  width: inherit;
 }
 .link--container {
   width: inherit;
@@ -524,10 +536,10 @@ section {
 .footer {
   grid-column: 2/3;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   flex-direction: column;
   height: 50vh;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   color: #d7e9f7;
   border-bottom: powderblue solid 10px;

@@ -15,7 +15,7 @@ function ServicesSmallPage() {
           amount of time and money.
         </p>
         </div>
-        <div className="servicesCard--Container w-auto col">
+        <div className="servicesCard--Container col-sm- h-auto w-auto">
             <div className="servicesCards">
                 <div className="servicesCards--Header">
                 <h2>

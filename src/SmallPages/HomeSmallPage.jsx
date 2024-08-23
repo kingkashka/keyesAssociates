@@ -7,7 +7,7 @@ export default function HomeSmallPage(props) {
     <>
         {/* HOMEPAGE CONTAINER START  */}
 
-        <section id="home" className="homePageContainer  w-auto col h-auto">          
+        <section id="home" className="homePageContainer col-sm- h-auto w-auto">          
             <div className="openingStatement  w-auto col">
               <h1>Why Choose Keyes & Associates</h1>
               <div className="statementContainer  w-auto col">

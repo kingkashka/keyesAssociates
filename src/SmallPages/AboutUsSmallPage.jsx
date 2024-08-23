@@ -3,7 +3,7 @@ import { GiBullseye } from "react-icons/gi";
 import { FaHandshake } from "react-icons/fa";
 function AboutUsSmallPage() {
   return (
-    <section id="aboutUs" className="aboutUsSmallPage w-auto col h-auto">
+    <section id="aboutUs" className="aboutUsSmallPage col-sm- h-auto w-auto">
       <div className="aboutUs--Header w-auto col">
         <h1>About Us</h1>
         <p>
