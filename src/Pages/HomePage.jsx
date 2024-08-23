@@ -5,13 +5,21 @@ import AboutUsSmallPage from "../SmallPages/AboutUsSmallPage";
 import ContactSmallPage from "../SmallPages/ContactSmallPage";
 import ServicesSmallPage from "../SmallPages/ServicesSmallPage";
 import Footer from "../components/Footer";
+import { useState, useEffect } from "react";
 
-function HomePage() {
+function HomePage(props) {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 725);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 725);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <>
-    <div className="mainContainer w-auto col h-auto">
+    <div className={isMobile ? "mainContainerMobile w-auto col h-auto" : "mainContainer w-auto col h-auto"}>
       <NavBar />
-      <LogoContainer/>
+      <LogoContainer/> 
       <HomeSmallPage />
       <ServicesSmallPage/>
       <AboutUsSmallPage/>

@@ -3,6 +3,7 @@
   margin: 0 auto;
   text-align: center;
   background-color: #1b4552;
+  min-width: 500px;
 }
 body{
   background-color: powderblue;
@@ -22,6 +23,16 @@ section {
   width: 100%;
   height: 650vh;
   font-family: Arial, Helvetica, sans-serif;
+}
+.mainContainerMobile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 650vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
 }
 /* NAVBAR START  */
 .navBar {
@@ -46,8 +57,15 @@ section {
   width: 100%;
 }
 .navbar{
-  height: inherit;
-  width: inherit;
+  position: fixed;
+  top: 0;
+  left: 1%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+.nav-link {
+  color: powderblue;
 }
 .link--container {
   width: inherit;
@@ -75,6 +93,7 @@ section {
   color: whitesmoke;
 }
 .underLinkBorder {
+  min-width: 100px;
   width: 150px;
   height: 1px;
   border: solid transparent;
@@ -110,34 +129,8 @@ section {
 }
 .logo {
   height: 600px;
-  width: 1000px;
+  width: 900px;
 }
-
-/* @media screen and (max-width: 600px) {
-  .navBar {
-    display: flex;
-    position: sticky;
-    top: 0;
-    left: 0;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    background-color: #6d80a4;
-    border-right: 4px solid #d7e9f7;
-  }
-  .logo--container {
-    height: 150px;
-    width: 600px;
-  }
-  .homePageContainer {
-    width: inherit;
-  }
-  .servicesSmallPage {
-    width: inherit;
-  }
-} */
-
 /* LOGO CONTAINER END  */
 
 /* HOMEPAGE CONTAINER START*/
@@ -154,7 +147,7 @@ section {
 .openingStatement {
   font-size: 1.4rem;
   color: #d7e9f7;
-  width: 80%;
+  max-width: 80%;
   margin: 0 auto;
   height: 50vh;
   display: flex;
@@ -320,7 +313,7 @@ section {
   margin: 0 auto;
 }
 .aboutUs--Header {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 .aboutUsSmallPage h1 {
@@ -341,8 +334,12 @@ section {
   background-color: #d7e9f7;
   color: black;
   border-radius: 8px;
+  max-height: 350px;
+  min-height: 300px;
   height: 350px;
   width: 400px;
+  max-width: 400px;
+  min-width: 350px;
   margin: 1%;
 }
 /* .aboutUsCards--Header{

@@ -18,8 +18,8 @@ function AboutUsSmallPage() {
           value to our clients.
         </p>
       </div>
-      <div className="aboutUsCards--Container w-auto col h-auto">
-        <div className="aboutUsCards col-sm-">
+      <div className="aboutUsCards--Container w-auto col-sm- h-auto">
+        <div className="aboutUsCards w-auto h-auto col-sm-">
           <div className="aboutUsCards--Header col-sm-">
             <h2>Our Vision</h2>
             <PiEyesFill className="aboutIcons" />
@@ -35,7 +35,7 @@ function AboutUsSmallPage() {
             </p>
           </div>
         </div>
-        <div className="aboutUsCards col-sm-">
+        <div className="aboutUsCards w-auto h-auto col-sm-">
           <div className="aboutUsCards--Header col-sm-">
             <h2>Our Purpose</h2>
             <GiBullseye className="aboutIcons" />
@@ -48,7 +48,7 @@ function AboutUsSmallPage() {
             </div>
           </div>
         </div>
-        <div className="aboutUsCards col-sm-">
+        <div className="aboutUsCards w-auto h-auto col-sm-">
           <div className="aboutUsCards--Header col-sm-">
             <h2>Our Mission</h2>
             <FaHandshake className="aboutIcons" />
