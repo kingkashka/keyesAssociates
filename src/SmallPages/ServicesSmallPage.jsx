@@ -42,11 +42,11 @@ function ServicesSmallPage() {
                 <div className="servicesCards--Body">
                 <li>Capturing and properly coding all bank and credit card transactions</li>
                 <li>Bank and credit card reconciliation</li>
-                <h3>Accounts receivable</h3>
+                <h3>Accounts Receivable</h3>
                 <li>Ensure you get paid</li>
                 <li>Track and report outstanding balances</li>
                 <li>Send reminder emails</li>
-                <h3>Accounts payable</h3>
+                <h3>Accounts Payable</h3>
                 <li>Ensure all your business bills are paid on time</li>
                 <li>Sales tax accounting and filing</li>
                 <li>Financial Analysis and Reporting</li>
