@@ -42,17 +42,17 @@ function NavBar(props) {
                 About Us
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#services">
                 Contact Us
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
             <a
             href="mailto:KeyesandAssoc@outlook.com?subject=New%20Lead%20from%20K%26A&body=Your%20Full%20Name%3A%20%0A%0ACompany%20Name%3A%20%0A%0AType%20of%20Business%3A%20%0A%0APhone%20Number%3A%20%28XXX%29-%20XXX-%20XXXX%20%0A%0ABriefly%20describe%20how%20we%20can%20help%3A%20%0A"
             className="nav-link"
           >
-            Email Us
+            Contact Us
           </a>
             </li>
           </ul>
@@ -81,7 +81,7 @@ function NavBar(props) {
             href="mailto:KeyesandAssoc@outlook.com?subject=New%20Lead%20from%20K%26A&body=Your%20Full%20Name%3A%20%0A%0ACompany%20Name%3A%20%0A%0AType%20of%20Business%3A%20%0A%0APhone%20Number%3A%20%28XXX%29-%20XXX-%20XXXX%20%0A%0ABriefly%20describe%20how%20we%20can%20help%3A%20%0A"
             className="headerLink"
           >
-            Email Us
+            Contact Us
           </a>
           <div className="underLinkBorder w-auto"></div>
           <a
