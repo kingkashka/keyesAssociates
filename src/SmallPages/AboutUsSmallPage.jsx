@@ -4,7 +4,7 @@ import { FaHandshake } from "react-icons/fa";
 function AboutUsSmallPage() {
   return (
     <section id="aboutUs" className="aboutUsSmallPage col-sm- h-auto w-auto">
-      <div className="aboutUs--Header w-auto col">
+      <div className="aboutUs--Header w-auto h-auto col-sm-">
         <h1>About Us</h1>
         <p>
           We strive to be the go-to partner for small business owners and
@@ -18,7 +18,7 @@ function AboutUsSmallPage() {
           value to our clients.
         </p>
       </div>
-      <div className="aboutUsCards--Container w-auto col-sm- h-auto">
+      <div className="aboutUsCards--Container w-auto h-auto col-sm-">
         <div className="aboutUsCards w-auto h-auto col-sm-">
           <div className="aboutUsCards--Header col-sm-">
             <h2>Our Vision</h2>

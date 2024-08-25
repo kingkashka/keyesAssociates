@@ -2,7 +2,7 @@
   max-width: 1880px;
   margin: 0 auto;
   text-align: center;
-  background-color: #1b4552;
+  background-color: whitesmoke;
   min-width: 500px;
 }
 body{
@@ -76,7 +76,7 @@ section {
   margin: 1%;
 }
 .nav-link {
-  color: #1b4552;
+  color: black;
 }
 .link--container {
   width: inherit;
@@ -159,7 +159,7 @@ section {
 
 .openingStatement {
   font-size: 1.4rem;
-  color: #d7e9f7;
+  color: black;
   max-width: 80%;
   margin: 0 auto;
   height: 50vh;
@@ -176,7 +176,7 @@ section {
 
 .statementContainer {
   width: 80%;
-  color: #d7e9f7;
+  color: black;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -323,12 +323,11 @@ section {
   height: 100vh;
   min-height: 100vh;
   border-bottom: powderblue solid 10px;
-  color: #d7e9f7;
+  color: black;
   margin: 0 auto;
 }
 .aboutUs--Header {
   width: 100%;
-  min-height: 50vh;
   margin: 0 auto;
 }
 .aboutUsSmallPage h1 {
@@ -385,7 +384,7 @@ section {
   height: 100vh;
   min-height: 100vh;
   grid-column: 2/3;
-  color: #d7e9f7;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -557,7 +556,7 @@ section {
   width: 100%;
   min-width: 100%;
   margin: 0 auto;
-  color: #d7e9f7;
+  color: black;
   border-bottom: powderblue solid 10px;
 }
 .footer p {
