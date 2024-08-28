@@ -23,7 +23,7 @@ function HomePage(props) {
       <HomeSmallPage />
       <ServicesSmallPage/>
       <AboutUsSmallPage/>
-      {/* <ContactSmallPage/> */}
+      <ContactSmallPage/>
       <Footer />
     </div>
     </>

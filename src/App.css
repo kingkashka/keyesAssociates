@@ -46,7 +46,7 @@ section {
   width: 100%;
   height: 100vh;
   background-color: #6d80a4;
-  border-right: 10px solid powderblue;
+  border-right: 10px solid #b0e0e6;
 }
 .navContainer {
   display: flex;
@@ -129,6 +129,7 @@ section {
 /* NAVBAR END  */
 
 /* LOGO CONTAINER START  */
+
 .logo--container {
   grid-column: 2/3;
   display: flex;
@@ -455,9 +456,15 @@ section {
 /* SERVICE PAGE END*/
 
 /* CONTACT PAGE START*/
+input{
+  max-width: 150px;
+}
+textarea{
+  max-width: 300PX;
+}
 .contactPage {
   grid-column: 2/3;
-  color: #d7e9f7;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -474,14 +481,49 @@ section {
   justify-content: center;
   align-items: center;
 }
+.topBox{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 1%;
+}
+.leftColumn{
+  margin: 1%;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.rightColumn{
+  margin: 1%;
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.bottomColumn{
+  height: inherit;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
 .contactContent {
   height: 25vh;
+  max-width: 500px;
   width: 500px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   border: powderblue 3px solid;
   background-color: #6d80a4;
   border-radius: 12px;
+}
+.contactPage--header{
+  height: 200px;
 }
 .contactPage--header {
   height: 40vh;
@@ -517,6 +559,9 @@ section {
   flex-direction: column;
   align-items: center;
   margin: 1%;
+  padding: 4%;
+  max-height: 500px;
+  max-width: 600px;
 }
 .contact input {
   height: 25px;
