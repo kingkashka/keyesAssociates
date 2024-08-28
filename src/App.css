@@ -1,5 +1,5 @@
 #root {
-  max-width: 1880px;
+  /* max-width: 1880px; */
   margin: 0 auto;
   text-align: center;
   background-color: whitesmoke;
@@ -523,6 +523,11 @@ textarea{
   border-radius: 12px;
 }
 .contactPage--header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1%;
   height: 200px;
 }
 .contactPage--header {
@@ -560,8 +565,10 @@ textarea{
   align-items: center;
   margin: 1%;
   padding: 4%;
-  max-height: 500px;
+  height: 350px;
+  max-height: 400px;
   max-width: 600px;
+  width: 600px;
 }
 .contact input {
   height: 25px;

@@ -4,7 +4,7 @@ import { useForm, ValidationError } from "@formspree/react";
 function ContactSmallPage() {
   const [state, handleSubmit] = useForm("mwpeynjd");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p>Thank you for your submission <br /> We will be in contact shortly</p>;
   }
   // const [formData, setFormData] = useState({
   //   fullName: "",
@@ -29,7 +29,7 @@ function ContactSmallPage() {
         <div className="contactPage--header w-auto">
           <h1>Connect With Us</h1>
           <p>
-            We would love to respond to your queries and help you succeed. Feel
+            We would love to respond to your queries and help you succeed. <br /> Feel
             free to get in touch with us.
           </p>
         </div>
