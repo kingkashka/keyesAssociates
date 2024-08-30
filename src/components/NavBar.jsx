@@ -1,5 +1,11 @@
-import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  NavLink,
+} from "react-router-dom";
 import { FaSquareFacebook } from "react-icons/fa6";
+import { IoCallOutline } from "react-icons/io5";
 import { useEffect, useState } from "react";
 
 function NavBar(props) {
@@ -34,7 +40,7 @@ function NavBar(props) {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#services">
-              Services
+                Services
               </a>
             </li>
             <li className="nav-item">
@@ -48,13 +54,22 @@ function NavBar(props) {
               </a>
             </li>
             <li className="nav-item">
-            <a
-            href="mailto:KeyesandAssoc@outlook.com?subject=New%20Lead%20from%20K%26A&body=Your%20Full%20Name%3A%20%0A%0ACompany%20Name%3A%20%0A%0AType%20of%20Business%3A%20%0A%0APhone%20Number%3A%20%28XXX%29-%20XXX-%20XXXX%20%0A%0ABriefly%20describe%20how%20we%20can%20help%3A%20%0A"
-            className="nav-link"
-          >
-            Contact Us
-          </a>
+              <a
+                href="mailto:KeyesandAssoc@outlook.com?subject=New%20Lead%20from%20K%26A&body=Your%20Full%20Name%3A%20%0A%0ACompany%20Name%3A%20%0A%0AType%20of%20Business%3A%20%0A%0APhone%20Number%3A%20%28XXX%29-%20XXX-%20XXXX%20%0A%0ABriefly%20describe%20how%20we%20can%20help%3A%20%0A"
+                className="nav-link"
+              >
+                Contact Us
+              </a>
             </li>
+            {/* <li className="nav-item">
+              <a
+                href="tel:+9803891314"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IoCallOutline className="socialIcon" />
+              </a>
+            </li> */}
           </ul>
         </div>
       </nav>
@@ -63,7 +78,7 @@ function NavBar(props) {
     return (
       <div className="navBar w-auto">
         <div className="link--container w-auto">
-        <a href="#home" className="headerLink">
+          <a href="#home" className="headerLink">
             Home
           </a>
           <div className="underLinkBorder w-auto"></div>
@@ -75,7 +90,9 @@ function NavBar(props) {
             About Us
           </a>
           <div className="underLinkBorder w-auto"></div>
-          <a href="#contact" className="headerLink">Contact Us</a>
+          <a href="#contact" className="headerLink">
+            Contact Us
+          </a>
           <div className="underLinkBorder w-auto"></div>
           <a
             href="mailto:KeyesandAssoc@outlook.com?subject=New%20Lead%20from%20K%26A&body=Your%20Full%20Name%3A%20%0A%0ACompany%20Name%3A%20%0A%0AType%20of%20Business%3A%20%0A%0APhone%20Number%3A%20%28XXX%29-%20XXX-%20XXXX%20%0A%0ABriefly%20describe%20how%20we%20can%20help%3A%20%0A"
@@ -90,6 +107,11 @@ function NavBar(props) {
             rel="noopener noreferrer"
           >
             <FaSquareFacebook className="socialIcon" />
+          </a>
+          <span></span>
+          <div className="underLinkBorder w-auto"></div>
+          <a href="tel:+9803891314" target="_blank" rel="noopener noreferrer">
+            <IoCallOutline className="socialIcon" />
           </a>
           <div className="underLinkBorder w-auto"></div>
         </div>

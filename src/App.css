@@ -1,5 +1,5 @@
 #root {
-  max-width: 1880px;
+  max-width: 2400px;
   margin: 0 auto;
   text-align: center;
   background-color: whitesmoke;
@@ -129,24 +129,114 @@ section {
 /* NAVBAR END  */
 
 /* LOGO CONTAINER START  */
-
 .logo--container {
+  position: relative;
   grid-column: 2/3;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items:normal;
   width: 100%;
   height: 100vh;
   min-height: 100vh;
   border-bottom: powderblue solid 10px;
+  background-size: cover;
+  z-index: 0;
+  
+}
+/* .logo--container p{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2%;
+  font-size: 1.5rem;
+} */
+
+.logo-background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  max-width: 100%;
+  width: inherit;
+  overflow: hidden;
+  background-image: url(/public/images/pexels-yankrukov-4458425.jpg);
+  background-size:cover;
+  filter: grayscale();
+  background-position: center;
+  z-index: -1;
+  position: relative;
+  flex-direction: column;
+}
+.referbtn{
+  position: absolute;
+  top: 4%;
+  left: 80%;
+  border: solid powderblue 3px;
+  height: 75px;
+  max-height: 100px;
+  width: 150px;
+  max-width: 150px;
+  padding: 10px;
+  border-radius: 16px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #586989;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: .5s ease-in;
+  font-size: 1rem;
+  z-index: 1;
+}
+.referbtn:hover{
+  scale: 1.1;
 }
 .logo {
-  height: 600px;
+  height: 1000px;
   width: 1000px;
   overflow: hidden;
+  z-index: 1;
+}
+
+
+.statement-overlay{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2%;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 60%;
+  max-width: 80%;
+  max-height: 400px;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  /* Your CSS rules for mobile devices go here */
+  .statement-overlay {
+    font-size: 16px; /* Adjust font size for mobile */
+    bottom: 5%; /* Adjust bottom position for mobile */
+    /* Any other mobile-specific styles */
+  }
 }
 /* LOGO CONTAINER END  */
 
+/* MISSION CONTAINTER START  */
+.missionContainer{
+  height: 100vh;
+  width: 100%;
+  background: url(/public/images/pexels-yankrukov-4458425.jpg);
+  background-size: cover;
+}
+/* MISSION CONTAINTER END  */
 /* HOMEPAGE CONTAINER START*/
 .homePageContainer {
   grid-column: 2/3;
