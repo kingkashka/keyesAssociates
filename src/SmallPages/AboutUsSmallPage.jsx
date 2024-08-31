@@ -1,9 +1,32 @@
 import { PiEyesFill } from "react-icons/pi";
 import { GiBullseye } from "react-icons/gi";
 import { FaHandshake } from "react-icons/fa";
+import {React, useRef, useEffect} from "react";
 function AboutUsSmallPage() {
+  const hiddenSectionsRef = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    });
+
+    hiddenSectionsRef.current.forEach((el) => observer.observe(el));
+
+    // Clean up the observer when the component unmounts
+    return () => {
+      hiddenSectionsRef.current.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
   return (
-    <section id="aboutUs" className="aboutUsSmallPage col-sm- h-auto w-auto">
+    <>
+    
+    <section id="aboutUs" className="aboutUsSmallPage col-sm- h-auto w-auto" ref={(el) => (hiddenSectionsRef.current[3] = el)}>
       <div className="aboutUs--Header w-auto h-auto col-sm-">
         <h1>About Us</h1>
         <p>
@@ -67,6 +90,7 @@ function AboutUsSmallPage() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 export default AboutUsSmallPage;

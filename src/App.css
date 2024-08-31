@@ -7,6 +7,7 @@
 }
 body{
   background-color: powderblue;
+  overflow-x: hidden;
 }
 html {
   scroll-snap-type: y mandatory;
@@ -14,8 +15,24 @@ html {
   -ms-text-size-adjust: 100%;
 }
 section {
+  overflow: hidden;
   height: 100vh;
+  width: 100vh;
   scroll-snap-stop: normal;
+}
+.hidden {
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateX(100%);
+  transition: all 1s;
+  width: 100%;
+
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  width: 100%;
 }
 .mainContainer {
   display: grid;
@@ -129,6 +146,13 @@ section {
 /* NAVBAR END  */
 
 /* LOGO CONTAINER START  */
+@media only screen and (max-width: 767px) {
+  .referbtn {
+    height: 50px;
+    width: 100px;
+    font-size: 14px;
+  }
+}
 .logo--container {
   position: relative;
   grid-column: 2/3;
@@ -141,8 +165,7 @@ section {
   min-height: 100vh;
   border-bottom: powderblue solid 10px;
   background-size: cover;
-  z-index: 0;
-  
+  z-index: 0;  
 }
 /* .logo--container p{
   position: absolute;
@@ -171,7 +194,7 @@ section {
 .referbtn{
   position: absolute;
   top: 4%;
-  left: 80%;
+  left: 77%;
   border: solid powderblue 3px;
   height: 75px;
   max-height: 100px;
@@ -212,8 +235,8 @@ section {
   bottom: 2%;
   font-size: 1.5rem;
   height: 100%;
-  width: 60%;
-  max-width: 80%;
+  width: 90%;
+  max-width: 90%;
   max-height: 400px;
   color: whitesmoke;
   font-size: 1.4rem;
@@ -237,11 +260,12 @@ section {
   background-size: cover;
 }
 /* MISSION CONTAINTER END  */
+
 /* HOMEPAGE CONTAINER START*/
 .homePageContainer {
   grid-column: 2/3;
   width: 100%;
-  height: 150vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   width: inherit;

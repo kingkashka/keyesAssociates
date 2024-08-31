@@ -1,7 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 function ContactSmallPage() {
+  const hiddenSectionsRef = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    });
+
+    hiddenSectionsRef.current.forEach((el) => observer.observe(el));
+
+    // Clean up the observer when the component unmounts
+    return () => {
+      hiddenSectionsRef.current.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
   const [state, handleSubmit] = useForm("mwpeynjd");
   if (state.succeeded) {
     return <p>Thank you for your submission <br /> We will be in contact shortly</p>;
@@ -24,7 +44,7 @@ function ContactSmallPage() {
   // };
 
   return (
-    <section id="contact" className="contactPage col-sm- h-auto w-auto">
+    <section id="contact" className="contactPage col-sm- h-auto w-auto" ref={(el) => (hiddenSectionsRef.current[4] = el)}>
       <div className="contactBox h-auto w-auto">
         <div className="contactPage--header w-auto">
           <h1>Connect With Us</h1>

@@ -1,13 +1,34 @@
 import HomePageCards from "../cards/HomePageCards";
 import HomePageCardsData from "../data/HomePageCardsData";
+import {React, useRef,useEffect} from "react";
 
 
 export default function HomeSmallPage(props) {
+  const hiddenSectionsRef = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    });
+
+    hiddenSectionsRef.current.forEach((el) => observer.observe(el));
+
+    // Clean up the observer when the component unmounts
+    return () => {
+      hiddenSectionsRef.current.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
   return (
     <>
         {/* HOMEPAGE CONTAINER START  */}
 
-        <section id="home" className="homePageContainer col-sm- h-auto w-auto">          
+        <section id="home" className="homePageContainer col-sm- h-auto w-auto" ref={(el) => (hiddenSectionsRef.current[1] = el)}>          
             <div className="openingStatement  w-auto col">
               <h1>Why Choose Keyes & Associates</h1>
               <div className="statementContainer  w-auto col">

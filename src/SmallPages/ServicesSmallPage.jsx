@@ -1,7 +1,29 @@
+import {React, useRef, useEffect} from "react";
+
 function ServicesSmallPage() {
+  const hiddenSectionsRef = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    });
+
+    hiddenSectionsRef.current.forEach((el) => observer.observe(el));
+
+    // Clean up the observer when the component unmounts
+    return () => {
+      hiddenSectionsRef.current.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
   return (
     <>
-      <section id="services" className="servicesSmallPage w-auto col h-auto">
+      <section id="services" className="servicesSmallPage w-auto col h-auto" ref={(el) => (hiddenSectionsRef.current[2] = el)}>
         <div>
         <div className="servicesHeader w-auto col">
         <h1>Our Bookkeeping Services</h1>

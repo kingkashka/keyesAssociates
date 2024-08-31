@@ -1,4 +1,26 @@
+import {React, useRef,useEffect} from "react";
+
 function LogoContainer({ isMobile }) {
+  const hiddenSectionsRef = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    });
+
+    hiddenSectionsRef.current.forEach((el) => observer.observe(el));
+
+    // Clean up the observer when the component unmounts
+    return () => {
+      hiddenSectionsRef.current.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
   // if (isMobile) {
   //   return (
   //     <section className="logo--container col-sm- h-auto w-auto">
@@ -25,8 +47,8 @@ function LogoContainer({ isMobile }) {
   //   );
   // }
   return (
-    <section className="logo--container col-sm- h-auto w-auto">
-      <div className="logo-background col-sm-">
+    <section className="hidden logo--container col-sm- h-auto w-auto" ref={(el) => (hiddenSectionsRef.current[0] = el)}>
+      <div className="logo-background col-sm- w-auto">
         <img
           className="logo"
           src="/images/logo.svg"
