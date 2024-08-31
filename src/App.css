@@ -183,7 +183,7 @@ section {
   max-width: 100%;
   width: inherit;
   overflow: hidden;
-  background-image: url(/public/images/pexels-yankrukov-4458425.jpg);
+  background-image: url(/images/ladyBackground.jpg);
   background-size:cover;
   filter: grayscale();
   background-position: center;
