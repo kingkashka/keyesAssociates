@@ -183,7 +183,7 @@ section {
   max-width: 100%;
   width: inherit;
   overflow: hidden;
-  background-image: url(../public/images/ladyBackground.jpg);
+  background-image: url(/src/image/ladyBackground.jpg);
   background-size:cover;
   filter: grayscale();
   background-position: center;
