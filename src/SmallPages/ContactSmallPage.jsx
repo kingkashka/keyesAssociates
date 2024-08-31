@@ -57,12 +57,11 @@ function ContactSmallPage() {
   <form onSubmit={handleSubmit} className="contact">
     <div className="topBox w-auto h-auto">
       <div className="leftColumn w-auto h-auto">
-        <label htmlFor="fullName">Full Name</label>
+        <label className="label" htmlFor="fullName">Full Name</label>
         <input
           className="w-100"
           type="text"
           name="fullName"
-          placeholder="Full Name"
           // value={formData.fullName}
           // onChange={handleChange}
         />
@@ -71,12 +70,11 @@ function ContactSmallPage() {
           field="fullName"
           errors={state.errors}
         />
-        <label htmlFor="companyName">Company Name</label>
+        <label className="label" htmlFor="companyName">Company Name</label>
         <input
           className="w-100"
           type="text"
           name="companyName"
-          placeholder="Company Name"
           // value={formData.companyName}
           // onChange={handleChange}
         />
@@ -88,24 +86,24 @@ function ContactSmallPage() {
       </div>
 
       <div className="rightColumn w-auto col-sm-">
-        <label htmlFor="phoneNumber">Phone Number</label>
+        <label className="label" htmlFor="phoneNumber">Phone Number</label>
         <input
           className="w-100"
           type="number"
           name="phoneNumber"
-          placeholder="Phone Number"
+          
         />
         <ValidationError
           prefix="phoneNumber"
           field="phoneNumber"
           errors={state.errors}
         />
-        <label htmlFor="businessType">Type of Business</label>
+        <label className="label" htmlFor="businessType">Type of Business</label>
         <input
           className="w-100"
           type="text"
           name="businessType"
-          placeholder="Type of Business"
+        
           // value={formData.businessType}
           // onChange={handleChange}
         />
@@ -119,14 +117,14 @@ function ContactSmallPage() {
 
     <div className="bottomColumn">
       <div className="col-sm-">
-        <label htmlFor="email">Email</label>
+        <label className="label" htmlFor="email">Email</label>
         <br />
         <input
           className="w-100"
           id="email"
           type="email"
           name="email"
-          placeholder="Email"
+          
         />
         <ValidationError
           prefix="Email"
@@ -134,7 +132,7 @@ function ContactSmallPage() {
           errors={state.errors}
         />
         <br />
-        <label htmlFor="message">Message</label>
+        <label className="label" htmlFor="message">Message</label>
         <br />
         <textarea
           className="w-100"
