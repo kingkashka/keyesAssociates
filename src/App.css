@@ -78,6 +78,7 @@ section {
   position: fixed;
   top: 0;
   left: 1%;
+  z-index: 2;
   border-radius: 4px;
   color: #d7e9f7;
   background-color: transparent;
