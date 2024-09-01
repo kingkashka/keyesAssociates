@@ -43,6 +43,7 @@ section {
 }
 .mainContainerMobile {
   position: relative;
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -178,6 +179,7 @@ section {
 .logo-background{
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
   align-items: center;
   height: inherit;
   max-width: 100%;
