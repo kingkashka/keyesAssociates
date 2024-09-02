@@ -326,8 +326,8 @@ section {
   flex-wrap: wrap;
 }
 .HomePageCards {
-  height: 510px;
-  max-height: 510px;
+  height: 515px;
+  max-height: 515px;
   width: 300px;
   background-color: #d7e9f7;
   margin: 1%;
