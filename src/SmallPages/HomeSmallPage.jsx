@@ -75,7 +75,7 @@ export default function HomeSmallPage(props) {
               <h1>Optimize your time, Expand your business</h1>
             </div>
           <div className="homePageCard--Container h-auto w-auto col">
-          <div className="HomePageCards col-sm-">
+          <div className="HomePageCards col-sm- h-auto">
         <div className="card--Header">
           <h2>BOOKKEEPING</h2>
           <h3>Want to clean up your books and establish a sound accounting system?</h3>
@@ -83,7 +83,7 @@ export default function HomeSmallPage(props) {
         <div className="cardImages--Container w-auto col">
           <img src="https://images.pexels.com/photos/164686/pexels-photo-164686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="cardImages" />
         </div>
-        <div className="bullet--Container">
+        <div className="bullet--Container h-auto">
           <li>Bank transaction recording</li>
           <li>Bank reconciliations</li>
           <li>Invoices and payments</li>
