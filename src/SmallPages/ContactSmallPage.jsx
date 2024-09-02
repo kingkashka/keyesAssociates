@@ -22,19 +22,10 @@ function ContactSmallPage() {
       hiddenSectionsRef.current.forEach((el) => observer.unobserve(el));
     };
   }, []);
-  const [state, handleSubmit] = useForm("mwpeynjd");
+  const [state, handleSubmit] = useForm("mqazjzop");
   if (state.succeeded) {
     return <p>Thank you for your submission <br /> We will be in contact shortly</p>;
   }
-  // const [formData, setFormData] = useState({
-  //   fullName: "",
-  //   companyName: "",
-  //   businessType: "",
-  //   phoneNumber: "",
-  //   email: "",
-  //   message: "",
-  // });
-
   // const handleChange = (e) => {
   //   const { name, value } = e.target;
   //   setFormData({
