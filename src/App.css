@@ -368,7 +368,7 @@ section {
 .bullet--Container {
   display: flex;
   flex-direction: column;
-  height: 125px;
+  height: inherit;
   width: inherit;
 }
 .bullet--Container li {
