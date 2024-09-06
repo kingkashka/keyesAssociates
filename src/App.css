@@ -237,6 +237,7 @@ section {
 .statement-overlay{
   position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   left: 50%;
@@ -251,6 +252,10 @@ section {
   color: whitesmoke;
   font-size: 1.4rem;
   overflow: hidden;
+}
+.statement-overlay ul li {
+  text-align: left;
+  margin: 1%;
 }
 @media (max-width: 768px) {
   /* Your CSS rules for mobile devices go here */

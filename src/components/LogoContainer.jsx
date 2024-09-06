@@ -56,16 +56,13 @@ function LogoContainer({ isMobile }) {
         />
         <div className="statement-overlay ">
           <p>
-            At Keyes &amp; Associates, we understand the importance of keeping
-            your finances in order and minimizing your stress on bookkeeping and
-            accounting matters. That&#39;s why we&#39;re committed to providing
-            top-tier bookkeeping services that cater to our clients&#39;
-            individual needs. As a small business owner in the Charlotte NC
-            area, we know how much time and effort goes into running a business.
-            That&#39;s why we&#39;re here to offer you a better solution. By
-            outsourcing your bookkeeping needs to us, you&#39;ll have more time
-            to focus on growing your business and increasing your bottom line.
+          At Keyes & Associates, we understand the importance of keeping your finances in order and minimizing your stress on bookkeeping and accounting matters. We help our clients:
           </p>
+          <ul>
+            <li>Increase their profits by an average of $7500 per year</li>
+            <li>Get back 60 hours of their time, per year, by streamlining their bookkeeping</li>
+            <li>Have a peace of mind by mitigating financial risk(s) - accurate financial reporting for acquiring loans and filing taxes</li>
+          </ul>
         </div>
       </div>
       <a className="referbtn w-auto" href="#contact">
