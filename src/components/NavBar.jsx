@@ -5,6 +5,7 @@ import {
   NavLink,
 } from "react-router-dom";
 import { FaSquareFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
 import { useEffect, useState } from "react";
 
@@ -58,18 +59,26 @@ function NavBar(props) {
                 href="mailto:support@keyesassocbookkeeping.com?subject=New%20Lead%20from%20K%26A&body=Your%20Full%20Name%3A%20%0A%0ACompany%20Name%3A%20%0A%0AType%20of%20Business%3A%20%0A%0APhone%20Number%3A%20%28XXX%29-%20XXX-%20XXXX%20%0A%0ABriefly%20describe%20how%20we%20can%20help%3A%20%0A"
                 className="nav-link"
               >
-                Contact Us
+                Email Us
               </a>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <a
-                href="tel:+9803891314"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61564204352290"
+                className="nav-link"
               >
-                <IoCallOutline className="socialIcon" />
+                Facebook
               </a>
-            </li> */}
+            </li>
+            <li className="nav-item">
+              <a
+                href="https://www.linkedin.com/company/keyes-and-associates-bookkeeping-llc"
+                className="nav-link"
+              >
+                Linkedin
+              </a>
+            </li>
+            
           </ul>
         </div>
       </nav>
@@ -101,6 +110,7 @@ function NavBar(props) {
             Email Us
           </a>
           <div className="underLinkBorder w-auto"></div>
+          <div className="w-auto">
           <a
             href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61564204352290"
             target="_blank"
@@ -108,7 +118,14 @@ function NavBar(props) {
           >
             <FaSquareFacebook className="socialIcon" />
           </a>
-          <span></span>
+          <span><a
+            href="https://www.linkedin.com/company/keyes-and-associates-bookkeeping-llc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="socialIcon" />
+          </a></span>
+          </div>
           <div className="underLinkBorder w-auto"></div>
           <a href="tel:+9803891314" target="_blank" rel="noopener noreferrer">
             <IoCallOutline className="socialIcon" />
