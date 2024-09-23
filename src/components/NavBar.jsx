@@ -7,6 +7,7 @@ import {
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
+import { FaInstagramSquare } from "react-icons/fa";
 import { useEffect, useState } from "react";
 
 function NavBar(props) {
@@ -78,6 +79,14 @@ function NavBar(props) {
                 Linkedin
               </a>
             </li>
+            <li className="nav-item">
+              <a
+                href="https://www.Instagram.com/gregoraykeyes"
+                className="nav-link"
+              >
+                Instagram
+              </a>
+            </li>
             
           </ul>
         </div>
@@ -124,6 +133,13 @@ function NavBar(props) {
             rel="noopener noreferrer"
           >
             <FaLinkedin className="socialIcon" />
+          </a></span>
+          <span><a
+            href="https://www.Instagram.com/gregoraykeyes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagramSquare className="socialIcon" />
           </a></span>
           </div>
           <div className="underLinkBorder w-auto"></div>
