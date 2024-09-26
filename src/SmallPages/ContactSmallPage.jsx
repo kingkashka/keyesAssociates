@@ -43,6 +43,11 @@ function ContactSmallPage() {
             We would love to respond to your queries and help you succeed. <br /> Feel
             free to get in touch with us.
           </p>
+          <a className="referbtn2 w-auto" href="https://calendly.com/keyes-associates/bookkeeping-strategy-session">
+        Free <br />
+        Consultation
+        <div className="underLinkBorder w-auto"></div>
+      </a>
         </div>
         <div className="contactContent w-auto h-auto justify-content-center">
   <form onSubmit={handleSubmit} className="contact">

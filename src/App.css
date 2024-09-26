@@ -223,7 +223,33 @@ section {
   font-size: 1rem;
   z-index: 1;
 }
+.referbtn2{
+  position: absolute;
+  top: 4%;
+  left: 77%;
+  border: solid powderblue 3px;
+  height: 75px;
+  max-height: 100px;
+  width: 150px;
+  max-width: 150px;
+  padding: 10px;
+  border-radius: 16px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #586989;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: .5s ease-in;
+  font-size: 1rem;
+  z-index: 1;
+}
 .referbtn:hover{
+  scale: 1.1;
+}
+.referbtn2:hover{
   scale: 1.1;
 }
 .logo {
@@ -596,6 +622,7 @@ textarea{
 }
 .contactPage {
   grid-column: 2/3;
+  position: relative;
   color: black;
   display: flex;
   flex-direction: column;
@@ -647,6 +674,7 @@ textarea{
   height: 25vh;
   max-width: 500px;
   width: 500px;
+  margin-bottom: 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
