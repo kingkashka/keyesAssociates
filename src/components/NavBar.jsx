@@ -8,6 +8,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
 import { FaInstagramSquare } from "react-icons/fa";
+import { SiApplepodcasts } from "react-icons/si";
 import { useEffect, useState } from "react";
 
 function NavBar(props) {
@@ -87,7 +88,14 @@ function NavBar(props) {
                 Instagram
               </a>
             </li>
-            
+            <li className="nav-item">
+              <a
+                href="https://keyestosuccess.podbean.com/ "
+                className="nav-link"
+              >
+                Podcast
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -121,7 +129,7 @@ function NavBar(props) {
           <div className="underLinkBorder w-auto"></div>
           <div className="w-auto">
           <a
-            href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61564204352290"
+            href="https://www.facebook.com/keyesandassocbookkeeping"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -143,8 +151,8 @@ function NavBar(props) {
           </a></span>
           </div>
           <div className="underLinkBorder w-auto"></div>
-          <a href="tel:+9803891314" target="_blank" rel="noopener noreferrer">
-            <IoCallOutline className="socialIcon" />
+          <a href="https://keyestosuccess.podbean.com/ " target="_blank" rel="noopener noreferrer">
+            <SiApplepodcasts className="socialIcon" />
           </a>
           <div className="underLinkBorder w-auto"></div>
         </div>
