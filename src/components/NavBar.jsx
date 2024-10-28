@@ -66,6 +66,22 @@ function NavBar(props) {
             </li>
             <li className="nav-item">
               <a
+                href="https://keyestosuccess7.wordpress.com/"
+                className="nav-link"
+              >
+                Blog
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="https://keyestosuccess.podbean.com/ "
+                className="nav-link"
+              >
+                Podcast
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
                 href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61564204352290"
                 className="nav-link"
               >
@@ -86,14 +102,6 @@ function NavBar(props) {
                 className="nav-link"
               >
                 Instagram
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="https://keyestosuccess.podbean.com/ "
-                className="nav-link"
-              >
-                Podcast
               </a>
             </li>
           </ul>
@@ -127,6 +135,20 @@ function NavBar(props) {
             Email Us
           </a>
           <div className="underLinkBorder w-auto"></div>
+          <a
+            href="https://keyestosuccess7.wordpress.com/"
+            className="headerLink"
+          >
+            Blog
+          </a>
+          <div className="underLinkBorder w-auto"></div>
+          <a
+            href="https://keyestosuccess.podbean.com/"
+            className="headerLink"
+          >
+            Podcast
+          </a>
+          <div className="underLinkBorder w-auto"></div>
           <div className="w-auto">
           <a
             href="https://www.facebook.com/keyesandassocbookkeeping"
@@ -150,10 +172,6 @@ function NavBar(props) {
             <FaInstagramSquare className="socialIcon" />
           </a></span>
           </div>
-          <div className="underLinkBorder w-auto"></div>
-          <a href="https://keyestosuccess.podbean.com/ " target="_blank" rel="noopener noreferrer">
-            <SiApplepodcasts className="socialIcon" />
-          </a>
           <div className="underLinkBorder w-auto"></div>
         </div>
       </div>
