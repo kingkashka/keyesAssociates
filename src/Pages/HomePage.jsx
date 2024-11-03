@@ -4,6 +4,7 @@ import HomeSmallPage from "../SmallPages/HomeSmallPage";
 import AboutUsSmallPage from "../SmallPages/AboutUsSmallPage";
 import ContactSmallPage from "../SmallPages/ContactSmallPage";
 import ServicesSmallPage from "../SmallPages/ServicesSmallPage";
+import PricingSmallPage from "../SmallPages/PricingSmallPage";
 import Footer from "../components/Footer";
 import { useState, useEffect, useRef } from "react";
 
@@ -43,6 +44,7 @@ function HomePage(props) {
       <LogoContainer/> 
       <HomeSmallPage />
       <ServicesSmallPage/>
+      {/* <PricingSmallPage/> */}
       <AboutUsSmallPage/>
       <ContactSmallPage/>
       <Footer />

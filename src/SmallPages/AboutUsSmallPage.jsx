@@ -26,7 +26,7 @@ function AboutUsSmallPage() {
   return (
     <>
     
-    <section id="aboutUs" className="aboutUsSmallPage col-sm- h-auto w-auto" ref={(el) => (hiddenSectionsRef.current[3] = el)}>
+    <section id="aboutUs" className="aboutUsSmallPage col-sm- h-auto w-auto" ref={(el) => (hiddenSectionsRef.current[4] = el)}>
       <div className="aboutUs--Header w-auto h-auto col-sm-">
         <h1>About Us</h1>
         <p>

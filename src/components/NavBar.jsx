@@ -120,6 +120,10 @@ function NavBar(props) {
             Services
           </a>
           <div className="underLinkBorder w-auto"></div>
+          {/* <a href="#pricing" className="headerLink">
+            Pricing
+          </a>
+          <div className="underLinkBorder w-auto"></div> */}
           <a href="#aboutUs" className="headerLink">
             About Us
           </a>

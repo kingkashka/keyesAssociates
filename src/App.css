@@ -259,7 +259,6 @@ section {
   z-index: 1;
 }
 
-
 .statement-overlay{
   position: absolute;
   display: flex;
@@ -612,6 +611,42 @@ section {
   margin: 1%;
 }
 /* SERVICE PAGE END*/
+
+/* PRICING PAGE START*/
+.pricingSmallPage {
+  height: 100vh;
+  min-height: 100vh;
+  grid-column: 2/3;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border-bottom: powderblue solid 10px;
+  margin: 0 auto;
+}
+.pricingHeader {
+  width: 100%;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing--Container {
+  color: black;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.moneySign{
+  height: 40px;
+  width: 40px;
+  color:#6d80a4;
+}
+/* PRICING  PAGE END*/
 
 /* CONTACT PAGE START*/
 input{
