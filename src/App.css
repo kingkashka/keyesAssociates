@@ -582,33 +582,49 @@ section {
   background-color: #d7e9f7;
   color: black;
   border-radius: 8px;
-  height: 520px;
+  height: 560px;
+  min-height: 300px;
   width: 300px;
   margin: 1%;
 }
 .servicesCards--Header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 100px;
-  width: inherit;
+  width: 300px;
   border-bottom: #1b4552 solid 3px;
 }
 .servicesCards--Body {
-  height: 370px;
+  height: 540px;
   width: inherit;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: left;
   margin: 5px;
   list-style-position: inside;
   padding-left: 0; 
   margin: 5px;
 }
-
+.servicesCards--Body h4{
+  font-size: 1.4rem;
+}
+.servicesCards--Body p{
+  font-size: 1.20rem;
+}
 .servicesCards--Body li {
   font-size: .85rem;
   margin: 1%;
+}
+.servicesCards--Footer{
+  height: 100px;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: #1b4552 solid 3px;
 }
 /* SERVICE PAGE END*/
 
@@ -624,6 +640,13 @@ section {
   width: 100%;
   border-bottom: powderblue solid 10px;
   margin: 0 auto;
+}
+.pricing--Container {
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .pricingHeader {
   width: 100%;
@@ -645,6 +668,25 @@ section {
   height: 40px;
   width: 40px;
   color:#6d80a4;
+}
+.PricingPageCards{
+  height: 515px;
+  max-height: 515px;
+  width: 300px;
+  background-color: #d7e9f7;
+  margin: 1%;
+  border: 3px solid black;
+  border-radius: 8px;
+  color: black;
+  transition: linear 0.5s;
+}
+.pricingCard--Header{
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  align-items: center;
+  height: 125px;
+  width: inherit;
 }
 /* PRICING  PAGE END*/
 

@@ -38,44 +38,57 @@ function ServicesSmallPage() {
         </p>
         </div>
         <div className="servicesCard--Container col-sm- h-auto w-auto">
-            <div className="servicesCards">
-                <div className="servicesCards--Header">
+            <div className="servicesCards h-auto">
+                <div className="servicesCards--Header w-auto">
                 <h2>
-                One-time Services  
+                Basic  
                 </h2>
                 </div>
-                <div className="servicesCards--Body">
-                <li>Clean up financial records</li>
-                <li>Reconstruct books</li>
-                <li>Catch-up Work</li>
-                <li>Rescue Work</li>
-                <li>Additional Bank, Credit Card or Loan accounts</li>
-                <li>Additional Transactions</li>
-                <li>Manual Data Entry</li>
-                <li>Straightforward flat fee</li>
+                <div className="servicesCards--Body w-auto">
+                <h4>Categorize your transactions for your P&L and Schedule C</h4>
+                <p>Reconcile your accounts</p>
+                <h4></h4>     
+                </div>
+                <div className="servicesCards--Footer w-auto">
+                <h2>$300/month</h2>
                 </div>
             </div>
-            <div className="servicesCards">
-            <div className="servicesCards--Header">
+            <div className="servicesCards h-auto">
+            <div className="servicesCards--Header w-auto">
                 <h2>
-                Monthly Services  
+                Preferred 
+                </h2> 
+                </div>
+                <div className="servicesCards--Body w-auto">
+                  <h4>Categorize your transactions for your P&L and Schedule C</h4>
+                  <p>Reconcile your accounts</p> 
+                  <h4>Manage your financial Statements:</h4>
+                  <p>Profit & Loss, Balance Sheet, Accounts Payable, Accounts Recievable</p>
+                  <h4>Monthly business consultation based on your business needs to enable growth and optimazation.</h4>
+                </div>
+                <div className="servicesCards--Footer w-auto">
+                <h2>$600/month</h2>
+                </div>
+            </div>
+            <div className="servicesCards h-auto">
+            <div className="servicesCards--Header w-auto">
+                <h2>
+                Premium 
                 </h2>
                 </div>
-                <div className="servicesCards--Body">
-                <li>Capturing and properly coding all bank and credit card transactions</li>
-                <li>Bank and credit card reconciliation</li>
-                <h3>Accounts Receivable</h3>
-                <li>Ensure you get paid</li>
-                <li>Track and report outstanding balances</li>
-                <li>Send reminder emails</li>
-                <h3>Accounts Payable</h3>
-                <li>Ensure all your business bills are paid on time</li>
-                <li>Sales tax accounting and filing</li>
-                <li>Financial Analysis and Reporting</li>
-                <li>Management Reporting</li>
-                <li>1099 filings</li>
+                <div className="servicesCards--Body w-auto ">
+                <h4>Categorize your transactions for your P&L and Schedule C</h4>
+                  <p>Reconcile your accounts</p> 
+                  <h4>Manage your financial Statements:</h4>
+                  <p>Profit & Loss, Balance Sheet, Accounts Payable, Accounts Recievable</p>
+                  <h4>Monthly business consultation based on your business needs to enable growth and optimazation.</h4>
+                  <p>Full-service A/P & A/R management, We will create your bills & invoices and track payments.</p>
+                </div>
+                <div className="servicesCards--Footer w-auto">
+                <h2>$1200/month</h2>
                 </div>
             </div>
+
 
         </div>
 

@@ -109,7 +109,7 @@ export default function HomeSmallPage(props) {
           <h3>Automate solution</h3>
         </div>
         <div className="cardImages--Container  w-auto col">
-          <img src="https://www.accountsjunction.com/image/accounts-payable-management-procedures.jpg" alt="" className="cardImages" />
+          <img src="https://images.pexels.com/photos/144233/pexels-photo-144233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="cardImages" />
         </div>
         <div className="bullet--Container">
           <li>Organize and prioritize invoices</li>

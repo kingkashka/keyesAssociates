@@ -44,11 +44,33 @@ function PricingSmallPage() {
       <div className="pricing--Container h-auto w-auto">
       <div className="PricingPageCards">
         <div className="pricingCard--Header">
-          <h2></h2>
-          <h3></h3>
+          <h2>Basic</h2>
         </div>
         <div className="pricingCardImages--Container">
-          <img src="" alt="" className="cardImages" />
+          <h3>Categorize your transactions for youe P&L and Schedule C</h3>
+          <h3>$300/month</h3>
+        </div>
+      </div>
+
+      <div className="PricingPageCards">
+        <div className="pricingCard--Header">
+          <h2>Preferred</h2>
+        </div>
+        <div className="pricingCardImages--Container">
+        <h3></h3>
+        </div>
+      </div>
+
+      <div className="PricingPageCards">
+        <div className="pricingCard--Header">
+          <h2>Premium</h2>
+          <p>Categorize your transactions for youe P&L and Schedule C</p>
+          <p>Reconcile your accounts</p>
+          <p>Manage your Financial Statements: Profit & Loss, Balance Sheet, Accounts Payable</p>
+          <h3>$600/month</h3>
+        </div>
+        <div className="pricingCardImages--Container">
+        <h3></h3>
         </div>
       </div>
       </div>
