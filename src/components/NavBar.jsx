@@ -46,6 +46,11 @@ function NavBar(props) {
                 Services
               </a>
             </li>
+            {/* <li className="nav-item">
+              <a className="nav-link" href="#services">
+                SetUp Simple
+              </a>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="#services">
                 About Us
@@ -72,14 +77,14 @@ function NavBar(props) {
                 Blog
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 href="https://keyestosuccess.podbean.com/ "
                 className="nav-link"
               >
                 Podcast
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61564204352290"
@@ -120,8 +125,8 @@ function NavBar(props) {
             Services
           </a>
           <div className="underLinkBorder w-auto"></div>
-          {/* <a href="#pricing" className="headerLink">
-            Pricing
+          {/* <a href="#Setup" className="headerLink">
+            SetUp Simple
           </a>
           <div className="underLinkBorder w-auto"></div> */}
           <a href="#aboutUs" className="headerLink">
@@ -146,13 +151,13 @@ function NavBar(props) {
             Blog
           </a>
           <div className="underLinkBorder w-auto"></div>
-          <a
+          {/* <a
             href="https://keyestosuccess.podbean.com/"
             className="headerLink"
           >
             Podcast
-          </a>
-          <div className="underLinkBorder w-auto"></div>
+          </a> */}
+          {/* <div className="underLinkBorder w-auto"></div> */}
           <div className="w-auto">
           <a
             href="https://www.facebook.com/keyesandassocbookkeeping"

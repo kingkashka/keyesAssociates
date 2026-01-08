@@ -43,7 +43,7 @@ function ContactSmallPage() {
             We would love to respond to your queries and help you succeed. <br /> Feel
             free to get in touch with us.
           </p>
-          <a className="referbtn2 w-auto" href="https://calendly.com/keyes-associates/bookkeeping-strategy-session">
+          <a className="referbtn2 w-auto" href="https://calendar.app.google/X13GCtVid1HNvDrY7">
         Free <br />
         Consultation
         <div className="underLinkBorder w-auto"></div>
@@ -85,7 +85,7 @@ function ContactSmallPage() {
         <label className="label" htmlFor="phoneNumber">Phone Number</label>
         <input
           className="w-100"
-          type="number"
+          type="tel"
           name="phoneNumber"
           
         />

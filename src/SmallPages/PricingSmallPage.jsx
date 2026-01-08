@@ -48,7 +48,7 @@ function PricingSmallPage() {
         </div>
         <div className="pricingCardImages--Container">
           <h3>Categorize your transactions for youe P&L and Schedule C</h3>
-          <h3>$300/month</h3>
+          <h3>Pricing starts at <n />$300/month</h3>
         </div>
       </div>
 

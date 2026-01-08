@@ -65,7 +65,7 @@ function LogoContainer({ isMobile }) {
           </ul>
         </div>
       </div>
-      <a className="referbtn w-auto" href="https://calendly.com/keyes-associates/bookkeeping-strategy-session">
+      <a className="referbtn w-auto" href="https://calendar.app.google/X13GCtVid1HNvDrY7">
         Free <br />
         Consultation
         <div className="underLinkBorder w-auto"></div>

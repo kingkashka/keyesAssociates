@@ -341,7 +341,7 @@ section {
 .statementContainer li {
   margin: 0.5%;
   font-size: 1.2rem;
-  list-style: none;
+  list-style: none;;
 }
 .firstStatement {
   font-weight: bold;
@@ -403,9 +403,11 @@ section {
   width: inherit;
 }
 .bullet--Container li {
+  list-style-position: inside;
   text-align: left;
   font: 1rem;
   margin: 2%;
+  padding-left: 1em;
 }
 .homePage--left {
   display: grid;
@@ -597,7 +599,7 @@ section {
   border-bottom: #1b4552 solid 3px;
 }
 .servicesCards--Body {
-  height: 540px;
+  height: 400px;
   width: inherit;
   display: flex;
   flex-direction: column;
@@ -608,8 +610,29 @@ section {
   padding-left: 0; 
   margin: 5px;
 }
-.servicesCards--Body h4{
-  font-size: 1.4rem;
+.servicesCards--Body ul li {
+  font-size: 1rem;
+}
+.dash-list,
+.dash-list-middle {
+  list-style: none;
+  padding-left: 1em;
+}
+
+.dash-list li::before {
+  content: "– ";
+  font-size: 10px;
+  color: #1b4552;
+}
+
+.dash-list-middle li::before {
+  content: "* ";
+  font-size: 30px;
+  color: #1b4552;
+}
+
+.dash-list-middle li::marker {
+  font-size: 30px;
 }
 .servicesCards--Body p{
   font-size: 1.20rem;
