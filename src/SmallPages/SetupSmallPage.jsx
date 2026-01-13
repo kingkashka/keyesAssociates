@@ -139,7 +139,7 @@ function SetupSmallPage() {
         </div>
 
         <section id="simplePrices" className="h-auto w-auto">
-          <div className="simplePricing w-auto">
+          <div className="simplePricing2 w-auto">
             <h3>Pricing Options:</h3>
             <ul>
               <li>
@@ -156,7 +156,7 @@ function SetupSmallPage() {
             </ul>
           </div>
 
-          <div className="simplePricing">
+          <div className="simplePricing2">
             <ul>
               <li>Over 5 years helping businesses organize their books</li>
               <li>Quick, accurate setup that saves you hours of stress</li>

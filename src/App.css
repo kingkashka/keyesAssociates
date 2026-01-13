@@ -636,7 +636,23 @@ section {
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.simplePricing ul{
+.simplePricing ul{ 
+  list-style: none;
+  text-align: left;
+  font-size: 1.2rem;
+  list-style-position: inside;
+  padding-left: 1em;
+}
+.simplePricing2{
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.simplePricing2 ul{ 
   text-align: left;
   font-size: 1.2rem;
   list-style-position: inside;
