@@ -16,7 +16,7 @@ const SetupPageImageData = [
     {
         image: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg",
         title: {
-            bold: "Feasing Business Owners",
+            bold: "Seasoned Business Owners",
             normal: " switching from another accounting system",
         },
     },

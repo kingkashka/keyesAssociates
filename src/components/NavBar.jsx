@@ -121,7 +121,7 @@ function NavBar(props) {
             href="#setup"
             className="headerLink"
           >
-            Simple <br />Setup
+            QBO <br />Setup
           </a>
           <div className="underLinkBorder w-auto"></div>
           {/* <a href="#Setup" className="headerLink">

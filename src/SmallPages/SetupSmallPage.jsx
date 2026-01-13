@@ -54,7 +54,7 @@ function SetupSmallPage() {
             <a className="simplePricesLink" href="#simplePrices">
               Flat-rate
             </a>
-            , done-for-you:
+            . No Hidden Costs!
           </h3>
         </div>
 
