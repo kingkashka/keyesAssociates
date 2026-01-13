@@ -58,7 +58,7 @@ function SetupSmallPage() {
           </h3>
         </div>
 
-        <div className="slideshow-container w-auto h-auto col">
+        <div className="slideshow-container">
           {SetupPageImageData[index] && (
             <h3 className="text">
               <strong>{SetupPageImageData[index]?.title?.bold}</strong>
