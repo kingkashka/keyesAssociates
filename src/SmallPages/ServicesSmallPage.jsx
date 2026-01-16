@@ -51,12 +51,12 @@ function ServicesSmallPage() {
               </div>
               <div className="servicesCards--Body w-auto">
                 <ul className="dash-list">
-                  <li>Clients with gross revenue below $100K</li>
+                  <li>Gross revenue below $100K</li>
                   <li>Startups & Solopreneurs</li>
                   <li>Services performed QUARTERLY</li>
                   <li>1 entity</li>
                   <li>Up to 2 accounts</li>
-                  <li>Up to 150 monthly transactions</li>
+                  <li>Up to 50 monthly transactions</li>
                   <ul className="dash-list-middle">
                     <li>Recorded</li>
                     <li>Classified</li>
@@ -80,12 +80,12 @@ function ServicesSmallPage() {
                 </h2>
               </div>
               <div className="servicesCards--Body w-auto">
-                 <ul className="dash-list">
-                  <li>Clients with gross revenue over $100K</li>
+                <ul className="dash-list">
+                  <li>Gross revenue over $100K</li>
                   <li>Services performed MONTHLY</li>
                   <li>1 entity</li>
                   <li>Up to 4 accounts</li>
-                  <li>Up to 100 monthly transactions</li>
+                  <li>Up to 150 monthly transactions</li>
                   <ul className="dash-list-middle">
                     <li>Recorded</li>
                     <li>Classified</li>
@@ -111,13 +111,12 @@ function ServicesSmallPage() {
                 </h2>
               </div>
               <div className="servicesCards--Body w-auto ">
-                 <ul className="dash-list">
-                  <li>Clients with gross revenue below $1M</li>
-                  
+                <ul className="dash-list">
+                  <li>Gross revenue above $1M</li>
+
                   <li>Services performed MONTHLY</li>
                   <li>1 entity</li>
                   <li>Up to 8 accounts</li>
-                  <li>Up to 150 monthly transactions</li>
                   <li>Up to 1000 monthly transactions</li>
                   <ul className="dash-list-middle">
                     <li>Recorded</li>
@@ -126,7 +125,7 @@ function ServicesSmallPage() {
                   </ul>
                   <li>Unlimited email support</li>
                   <li>2 consultation sessions</li>
-                  <li>Financial statement preparation00</li>
+                  <li>Financial statement preparation</li>
                 </ul>
               </div>
               <div className="servicesCards--Footer w-auto">
