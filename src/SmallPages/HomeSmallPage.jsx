@@ -92,7 +92,7 @@ export default function HomeSmallPage(props) {
       </div>
       <div className="HomePageCards col-sm-">
         <div className="card--Header">
-          <h2>ACCOUNT RECEIVABLE</h2>
+          <h2>ACCOUNTS RECEIVABLE</h2>
           <h3>Prompt and accurate invoicing</h3>
         </div>
         <div className="cardImages--Container  w-auto col">
@@ -105,7 +105,7 @@ export default function HomeSmallPage(props) {
       </div>
       <div className="HomePageCards col-sm-">
         <div className="card--Header">
-          <h2>ACCOUNT PAYABLE</h2>
+          <h2>ACCOUNTS PAYABLE</h2>
           <h3>Automated solution</h3>
         </div>
         <div className="cardImages--Container  w-auto col">

@@ -918,7 +918,7 @@ textarea{
   flex-direction: column;
   justify-content: center;
   min-width: 100%;
-  height: 100vh;
+  height: 50vh;
   min-height: 100vh;
   border-bottom: solid powderblue 10px;
   margin: 0 auto;
@@ -962,9 +962,8 @@ textarea{
 }
 .contactContent {
   height: 25vh;
-  max-width: 500px;
-  width: 500px;
-  margin-bottom: 2%;
+  max-width: 700px;
+  width: 700px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -978,9 +977,6 @@ textarea{
   align-items: center;
   flex-direction: column;
   margin: 1%;
-  height: 200px;
-}
-.contactPage--header {
   height: 40vh;
 }
 .contactPage--header h1 {

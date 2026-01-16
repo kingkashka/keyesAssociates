@@ -36,7 +36,7 @@ function ContactSmallPage() {
 
   return (
     <section id="contact" className="contactPage col-sm- h-auto w-auto" ref={(el) => (hiddenSectionsRef.current[5] = el)}>
-      <div className="contactBox h-auto w-auto">
+      <div className="contactBox w-auto">
         <div className="contactPage--header w-auto">
           <h1>Connect With Us</h1>
           <p>
