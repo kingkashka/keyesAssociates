@@ -143,26 +143,27 @@ function SetupSmallPage() {
             <h3>Pricing Options:</h3>
             <ul>
               <li>
-                <b>Starter:</b> $599 – Basic setup
+                <b>Starter:</b> $599 – Basic setup.
               </li>
               <li>
                 <b>Standard (Best Seller):</b> $799 – Full setup + reports &
-                training
+                training.
               </li>
               <li>
                 <b>Advanced:</b> $1,199 – Multi-user setup, advanced reports,
-                sales tax setup
+                and sales tax setup.
+              </li>
+              <li>Over 5 years helping businesses organize their books.</li>
+              <li>Quick, accurate setup that saves you hours of stress.</li>
+              <li>
+                Clear, easy-to-follow guidance so you can use QBO confidently.
               </li>
             </ul>
           </div>
 
           <div className="simplePricing2">
             <ul>
-              <li>Over 5 years helping businesses organize their books</li>
-              <li>Quick, accurate setup that saves you hours of stress</li>
-              <li>
-                Clear, easy-to-follow guidance so you can use QBO confidently
-              </li>
+              
             </ul>
           </div>
         </section>
