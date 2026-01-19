@@ -160,12 +160,6 @@ function SetupSmallPage() {
               </li>
             </ul>
           </div>
-
-          <div className="simplePricing2">
-            <ul>
-              
-            </ul>
-          </div>
         </section>
       </section>
     </>
